@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.0.2" created="2026-08-15 12:22" -->
+	<!-- generator="WordPress/7.0.2" created="2026-08-15 12:33" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>JR26 experiments</title>
 	<link>https://jr26-experiments.test</link>
 	<description>jr26 xp</description>
-	<pubDate>Sat, 15 Aug 2026 12:22:57 +0000</pubDate>
+	<pubDate>Sat, 15 Aug 2026 12:33:14 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://jr26-experiments.test</wp:base_site_url>
@@ -258,8 +258,8 @@
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:29:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-15 14:19:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-15 12:19:41]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 14:32:43]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 12:32:43]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[startseite]]></wp:post_name>
@@ -301,37 +301,15 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/?post_type=gatherpress_group&#038;p=17</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:gatherpress/cast-crew-list {"showDepartmentHeadings":false,"className":"is-style-compact-table"} /-->
-
-<!-- wp:query {"queryId":0,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_event","order":"desc","orderBy":"date","inherit":false,"shadow_filter":1,"gatherpress_shadow_source_post_id":17,"gatherpress_shadow_source_post_type":"gatherpress_group"},"namespace":"gatherpress-event-query","metadata":{"name":"Upcoming Events"},"className":"gatherpress-event-query"} -->
-<div class="wp-block-query gatherpress-event-query"><!-- wp:post-template {"metadata":{"name":"Events Template"}} -->
-<!-- wp:media-text {"useFeaturedImage":true} -->
-<div class="wp-block-media-text is-stacked-on-mobile"><figure class="wp-block-media-text__media"></figure><div class="wp-block-media-text__content"><!-- wp:gatherpress/event-date /-->
-
-<!-- wp:post-title /--></div></div>
-<!-- /wp:media-text -->
-<!-- /wp:post-template -->
-
-<!-- wp:query-pagination {"className":"gatherpress-query-pagination"} -->
-<!-- wp:query-pagination-previous {"label":"Previous Events","className":"gatherpress-query-pagination-previous"} /-->
-
-<!-- wp:query-pagination-numbers {"className":"gatherpress-query-pagination-numbers"} /-->
-
-<!-- wp:query-pagination-next {"label":"Next Events","className":"gatherpress-query-pagination-next"} /-->
-<!-- /wp:query-pagination -->
-
-<!-- wp:query-no-results {"className":"gatherpress-query-no-results"} -->
-<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no events."} -->
-<p></p>
-<!-- /wp:paragraph -->
-<!-- /wp:query-no-results --></div>
-<!-- /wp:query -->]]></content:encoded>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Eine gemischte Gruppe fester Freier.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>17</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 10:24:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 08:24:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 10:24:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 08:24:15]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 14:25:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 12:25:44]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[julia-raab]]></wp:post_name>
@@ -608,8 +586,8 @@
 		<wp:post_id>24</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 10:26:13]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 08:26:13]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 10:26:13]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 08:26:13]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 14:24:24]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 12:24:24]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[xmas]]></wp:post_name>
@@ -619,7 +597,9 @@
 		<wp:post_type><![CDATA[gatherpress_event]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="gatherpress_topic" nicename="holiday"><![CDATA[holiday]]></category>
+										<category domain="_gatherpress_group" nicename="_julia-raab"><![CDATA[Figurentheater Julia Raab]]></category>
+		<category domain="gatherpress_topic" nicename="holiday"><![CDATA[holiday]]></category>
+		<category domain="_gatherpress_group" nicename="_schaustelle-halle"><![CDATA[Schaustelle Halle]]></category>
 		<category domain="_gatherpress_venue" nicename="_wuk"><![CDATA[wuk]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_gptc_colors_updated]]></wp:meta_key>
@@ -743,13 +723,15 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/?post_type=gatherpress_person&#038;p=28</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:gatherpress/recent-relations {"showDepartment":false,"showPostType":true} /-->]]></content:encoded>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Das Mutterschaf.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>28</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 11:12:18]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 09:12:18]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 11:12:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 09:12:18]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 14:30:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 12:30:55]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[julia-raab]]></wp:post_name>
@@ -1207,13 +1189,15 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://jr26-experiments.test/?post_type=gatherpress_group&#038;p=84</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:gatherpress/cast-crew-list {"showDepartmentHeadings":false} /-->]]></content:encoded>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Eine Gruppe von der Saale.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>84</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-15 13:29:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-15 11:29:57]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-15 13:29:57]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-15 11:29:57]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 14:26:11]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 12:26:11]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[schaustelle-halle]]></wp:post_name>
@@ -1378,8 +1362,8 @@
 		<wp:post_id>76</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-15 11:32:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-15 09:32:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-15 14:22:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-15 12:22:15]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 14:32:52]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 12:32:52]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-jr26-experiments]]></wp:post_name>
