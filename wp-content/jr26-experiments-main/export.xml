@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.0" created="2026-07-08 15:21" -->
+	<!-- generator="WordPress/7.0.2" created="2026-08-15 09:37" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -26,14 +26,14 @@
 >
 
 <channel>
-	<title>WUK experiments</title>
-	<link>https://wuk-experiments.test</link>
-	<description>wuk xp</description>
-	<pubDate>Wed, 08 Jul 2026 15:21:42 +0000</pubDate>
+	<title>JR26 experiments</title>
+	<link>https://jr26-experiments.test</link>
+	<description>jr26 xp</description>
+	<pubDate>Sat, 15 Aug 2026 09:37:58 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>https://wuk-experiments.test</wp:base_site_url>
-	<wp:base_blog_url>https://wuk-experiments.test</wp:base_blog_url>
+	<wp:base_site_url>https://jr26-experiments.test</wp:base_site_url>
+	<wp:base_blog_url>https://jr26-experiments.test</wp:base_blog_url>
 
 		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[admin@localhost.com]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -49,21 +49,6 @@
 		<wp:term_slug><![CDATA[abgesetzt]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Abgesetzt]]></wp:term_name>
-	</wp:term>
-		<wp:term>
-		<wp:term_id>7</wp:term_id>
-		<wp:term_taxonomy><![CDATA[gatherpress_eventstatus]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[cancelled]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Cancelled]]></wp:term_name>
-		<wp:term_description><![CDATA[The event has been cancelled and will not take place.]]></wp:term_description>
-	</wp:term>
-		<wp:term>
-		<wp:term_id>11</wp:term_id>
-		<wp:term_taxonomy><![CDATA[_gatherpress_group]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[_ps]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Ensemble p+s]]></wp:term_name>
 	</wp:term>
 		<wp:term>
 		<wp:term_id>12</wp:term_id>
@@ -108,21 +93,6 @@
 		<wp:term_name><![CDATA[Laufend]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>8</wp:term_id>
-		<wp:term_taxonomy><![CDATA[gatherpress_eventstatus]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[moved-online]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Moved Online]]></wp:term_name>
-		<wp:term_description><![CDATA[The event has been moved to an online or virtual format.]]></wp:term_description>
-	</wp:term>
-		<wp:term>
-		<wp:term_id>16</wp:term_id>
-		<wp:term_taxonomy><![CDATA[_gatherpress_person]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[_nicole-troeger]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Nicole Tröger]]></wp:term_name>
-	</wp:term>
-		<wp:term>
 		<wp:term_id>17</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_play]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_oma]]></wp:term_slug>
@@ -144,57 +114,11 @@
 		<wp:term_name><![CDATA[Online event]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>20</wp:term_id>
-		<wp:term_taxonomy><![CDATA[_gatherpress_season]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[_paradiese]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Paradiese]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[term_color]]></wp:meta_key>
-			<wp:meta_value><![CDATA[#503AA8]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[term_color_secondary]]></wp:meta_key>
-			<wp:meta_value><![CDATA[#F6CFF4]]></wp:meta_value>
-		</wp:termmeta>
-	</wp:term>
-		<wp:term>
-		<wp:term_id>21</wp:term_id>
-		<wp:term_taxonomy><![CDATA[_gatherpress_play]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[_pension-troeger]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Pension Tröger]]></wp:term_name>
-	</wp:term>
-		<wp:term>
-		<wp:term_id>9</wp:term_id>
-		<wp:term_taxonomy><![CDATA[gatherpress_eventstatus]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[postponed]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Postponed]]></wp:term_name>
-		<wp:term_description><![CDATA[The event has been postponed to a later date.]]></wp:term_description>
-	</wp:term>
-		<wp:term>
 		<wp:term_id>22</wp:term_id>
 		<wp:term_taxonomy><![CDATA[gatherpress_topic]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[puppetry]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[puppetry]]></wp:term_name>
-	</wp:term>
-		<wp:term>
-		<wp:term_id>10</wp:term_id>
-		<wp:term_taxonomy><![CDATA[gatherpress_eventstatus]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[rescheduled]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Rescheduled]]></wp:term_name>
-		<wp:term_description><![CDATA[The event has been rescheduled to a different date or time.]]></wp:term_description>
-	</wp:term>
-		<wp:term>
-		<wp:term_id>6</wp:term_id>
-		<wp:term_taxonomy><![CDATA[gatherpress_eventstatus]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[scheduled]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Scheduled]]></wp:term_name>
-		<wp:term_description><![CDATA[The event is scheduled and taking place as planned.]]></wp:term_description>
 	</wp:term>
 		<wp:term>
 		<wp:term_id>2</wp:term_id>
@@ -211,11 +135,35 @@
 		<wp:term_name><![CDATA[wuk]]></wp:term_name>
 	</wp:term>
 		
-	<generator>https://wordpress.org/?v=7.0</generator>
+	<generator>https://wordpress.org/?v=7.0.2</generator>
 
 		<item>
+		<title><![CDATA[Navigation]]></title>
+		<link>https://jr26-experiments.test/2026/03/20/navigation/</link>
+		<pubDate>Fri, 20 Mar 2026 16:20:15 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://wuk-experiments.test/2026/03/20/navigation/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>4</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-20 17:20:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-20 16:20:15]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-20 17:20:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-20 16:20:15]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[navigation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
 		<title><![CDATA[Startseite]]></title>
-		<link>https://wuk-experiments.test/</link>
+		<link>https://jr26-experiments.test/</link>
 		<pubDate>Fri, 20 Mar 2026 16:29:39 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/?page_id=6</guid>
@@ -289,8 +237,8 @@
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:29:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 16:58:24]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 14:58:24]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-20 17:29:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[startseite]]></wp:post_name>
@@ -302,8 +250,33 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
 					<item>
+		<title><![CDATA[Custom Styles]]></title>
+		<link>https://jr26-experiments.test/2026/03/20/wp-global-styles-wuk-experiments/</link>
+		<pubDate>Fri, 20 Mar 2026 16:29:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://wuk-experiments.test/2026/03/20/wp-global-styles-wuk-experiments/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"styles":[],"settings":[],"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-20 17:29:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-20 17:29:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-20 16:29:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wp-global-styles-wuk-experiments]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="wuk-experiments"><![CDATA[wuk-experiments]]></category>
+						</item>
+					<item>
 		<title><![CDATA[Impressum]]></title>
-		<link>https://wuk-experiments.test/impressum/</link>
+		<link>https://jr26-experiments.test/impressum/</link>
 		<pubDate>Fri, 20 Mar 2026 16:33:43 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/?page_id=9</guid>
@@ -326,113 +299,8 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
 					<item>
-		<title><![CDATA[Schade ... für dich!]]></title>
-		<link>https://wuk-experiments.test/schade-fuer-dich/</link>
-		<pubDate>Mon, 30 Mar 2026 13:21:25 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://wuk-experiments.test/?page_id=10</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>You shall not pass.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>10</wp:post_id>
-		<wp:post_date><![CDATA[2026-03-30 15:21:25]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-03-30 13:21:25]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-30 15:21:25]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-30 13:21:25]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[schade-fuer-dich]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Ensemble p+s]]></title>
-		<link>https://wuk-experiments.test/group/ps/</link>
-		<pubDate>Wed, 08 Jul 2026 08:24:03 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://wuk-experiments.test/?post_type=gatherpress_group&#038;p=15</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:gatherpress/cast-crew-list /-->
-
-<!-- wp:query {"queryId":0,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_event_query":"upcoming","include_unfinished":1,"order":"asc","orderBy":"datetime","inherit":false,"shadow_filter":1,"gatherpress_shadow_source_post_id":15,"gatherpress_shadow_source_post_type":"gatherpress_group"},"namespace":"gatherpress-event-query","metadata":{"name":"Upcoming Events"},"className":"gatherpress-event-query"} -->
-<div class="wp-block-query gatherpress-event-query"><!-- wp:post-template {"metadata":{"name":"Events Template"}} -->
-<!-- wp:gatherpress/event-date /-->
-
-<!-- wp:post-title /-->
-<!-- /wp:post-template -->
-
-<!-- wp:query-pagination {"className":"gatherpress-query-pagination"} -->
-<!-- wp:query-pagination-previous {"label":"Previous Events","className":"gatherpress-query-pagination-previous"} /-->
-
-<!-- wp:query-pagination-numbers {"className":"gatherpress-query-pagination-numbers"} /-->
-
-<!-- wp:query-pagination-next {"label":"Next Events","className":"gatherpress-query-pagination-next"} /-->
-<!-- /wp:query-pagination -->
-
-<!-- wp:query-no-results {"className":"gatherpress-query-no-results"} -->
-<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no events."} -->
-<p></p>
-<!-- /wp:paragraph -->
-<!-- /wp:query-no-results --></div>
-<!-- /wp:query -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>15</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-08 10:24:03]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-08 08:24:03]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 10:24:03]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 08:24:03]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[ps]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[gatherpress_group]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="_gatherpress_person" nicename="_nicole-troeger"><![CDATA[Nicole Tröger]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_gptc_colors_updated]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_address]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_latitude]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_longitude]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_phone]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_website]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_gatherpress_relations]]></wp:meta_key>
-		<wp:meta_value><![CDATA[[{"slug":"_nicole-troeger","id":34,"type":"gatherpress_person","role":"Leitung","department":"direction","order":1}]]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[Figurentheater Julia Raab]]></title>
-		<link>https://wuk-experiments.test/group/julia-raab/</link>
+		<link>https://jr26-experiments.test/group/julia-raab/</link>
 		<pubDate>Wed, 08 Jul 2026 08:24:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/?post_type=gatherpress_group&#038;p=17</guid>
@@ -513,7 +381,7 @@
 							</item>
 					<item>
 		<title><![CDATA[party]]></title>
-		<link>https://wuk-experiments.test/event/party/</link>
+		<link>https://jr26-experiments.test/event/party/</link>
 		<pubDate>Wed, 08 Jul 2026 08:25:18 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/?post_type=gatherpress_event&#038;p=20</guid>
@@ -569,8 +437,8 @@
 		<wp:post_id>20</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 10:25:18]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 08:25:18]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 17:19:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 15:19:47]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 11:33:14]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 09:33:14]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[party]]></wp:post_name>
@@ -580,11 +448,9 @@
 		<wp:post_type><![CDATA[gatherpress_event]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="gatherpress_eventstatus" nicename="scheduled"><![CDATA[Scheduled]]></category>
-		<category domain="_gatherpress_venue" nicename="_friesenstrasse-8"><![CDATA[fiese8]]></category>
+										<category domain="_gatherpress_venue" nicename="_friesenstrasse-8"><![CDATA[fiese8]]></category>
 		<category domain="_gatherpress_group" nicename="_julia-raab"><![CDATA[Figurentheater Julia Raab]]></category>
 		<category domain="gatherpress_topic" nicename="holiday"><![CDATA[holiday]]></category>
-		<category domain="_gatherpress_season" nicename="_paradiese"><![CDATA[Paradiese]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_gptc_colors_updated]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
@@ -652,18 +518,18 @@
 				</item>
 					<item>
 		<title><![CDATA[fiese8]]></title>
-		<link>https://wuk-experiments.test/venue/friesenstrasse-8/</link>
+		<link>https://jr26-experiments.test/venue/friesenstrasse-8/</link>
 		<pubDate>Wed, 08 Jul 2026 08:25:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/venue/friesenstrasse-8/</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[<!-- wp:gatherpress/venue {"patternPicked":true} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>21</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 10:25:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 08:25:10]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 17:19:11]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 15:19:11]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 11:31:07]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 09:31:07]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[friesenstrasse-8]]></wp:post_name>
@@ -687,12 +553,12 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_static_map]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:10:"16x600x300";a:6:{s:3:"url";s:167:"https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/gatherpress/static-maps/8-friesenstrasse-halle-saale-sachsen-anhalt-06112-osm-16-600-300.png";s:6:"url_2x";s:170:"https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/gatherpress/static-maps/8-friesenstrasse-halle-saale-sachsen-anhalt-06112-osm-16-600-300@2x.png";s:4:"hash";s:32:"80bdeae07b05e769ede4a510115b82df";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:18:"16x600x300xroadmap";a:6:{s:3:"url";s:178:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/8-friesenstrasse-halle-saale-sachsen-anhalt-06112-osm-roadmap-16-600-300.png";s:6:"url_2x";s:181:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/8-friesenstrasse-halle-saale-sachsen-anhalt-06112-osm-roadmap-16-600-300@2x.png";s:4:"hash";s:32:"90c89870009e56065101a38826c31439";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[xmas]]></title>
-		<link>https://wuk-experiments.test/event/xmas/</link>
+		<link>https://jr26-experiments.test/event/xmas/</link>
 		<pubDate>Wed, 08 Jul 2026 08:26:13 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/?post_type=gatherpress_event&#038;p=24</guid>
@@ -744,8 +610,8 @@
 		<wp:post_id>24</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 10:26:13]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 08:26:13]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 17:20:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 15:20:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 11:32:47]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 09:32:47]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[xmas]]></wp:post_name>
@@ -755,10 +621,7 @@
 		<wp:post_type><![CDATA[gatherpress_event]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="gatherpress_eventstatus" nicename="scheduled"><![CDATA[Scheduled]]></category>
-		<category domain="_gatherpress_group" nicename="_ps"><![CDATA[Ensemble p+s]]></category>
-		<category domain="gatherpress_topic" nicename="holiday"><![CDATA[holiday]]></category>
-		<category domain="_gatherpress_season" nicename="_paradiese"><![CDATA[Paradiese]]></category>
+										<category domain="gatherpress_topic" nicename="holiday"><![CDATA[holiday]]></category>
 		<category domain="_gatherpress_venue" nicename="_wuk"><![CDATA[wuk]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_gptc_colors_updated]]></wp:meta_key>
@@ -821,13 +684,21 @@
 		<wp:meta_value><![CDATA[2026-12-24 20:00:00]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 			<wp:meta_key><![CDATA[gatherpress_datetimes]]></wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:14:"datetime_start";s:19:"2026-12-24 18:00:00";s:18:"datetime_start_gmt";s:19:"2026-12-24 17:00:00";s:12:"datetime_end";s:19:"2026-12-24 21:00:00";s:16:"datetime_end_gmt";s:19:"2026-12-24 20:00:00";s:8:"timezone";s:13:"Europe/Berlin";}]]></wp:meta_value>
 		</wp:postmeta>
 				</item>
 					<item>
 		<title><![CDATA[wuk]]></title>
-		<link>https://wuk-experiments.test/venue/wuk/</link>
+		<link>https://jr26-experiments.test/venue/wuk/</link>
 		<pubDate>Wed, 08 Jul 2026 08:25:58 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/venue/wuk/</guid>
@@ -839,8 +710,8 @@
 		<wp:post_id>25</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 10:25:58]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 08:25:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 17:18:54]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 15:18:54]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 10:25:58]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 08:25:58]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wuk]]></wp:post_name>
@@ -864,12 +735,12 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_static_map]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:10:"16x600x300";a:6:{s:3:"url";s:163:"https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-16-600-300.png";s:6:"url_2x";s:166:"https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-16-600-300@2x.png";s:4:"hash";s:32:"4f8dea6a7522d4f86241477d36761ce3";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:18:"16x600x300xroadmap";a:6:{s:3:"url";s:174:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300.png";s:6:"url_2x";s:177:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300@2x.png";s:4:"hash";s:32:"9637933afd169d4805f48a5fea77fc07";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Julia Raab]]></title>
-		<link>https://wuk-experiments.test/person/julia-raab/</link>
+		<link>https://jr26-experiments.test/person/julia-raab/</link>
 		<pubDate>Wed, 08 Jul 2026 09:12:18 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/?post_type=gatherpress_person&#038;p=28</guid>
@@ -900,46 +771,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Nicole Tröger]]></title>
-		<link>https://wuk-experiments.test/person/nicole-troeger/</link>
-		<pubDate>Wed, 08 Jul 2026 09:20:41 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://wuk-experiments.test/?post_type=gatherpress_person&#038;p=34</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:heading -->
-<h2 class="wp-block-heading">Gruppe </h2>
-<!-- /wp:heading -->
-
-<!-- wp:gatherpress/recent-relations {"showDepartment":false,"filterPostType":"gatherpress_group"} /-->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Produktionen</h2>
-<!-- /wp:heading -->
-
-<!-- wp:gatherpress/recent-relations {"showDepartment":false,"filterPostType":"gatherpress_play"} /-->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>34</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-08 11:20:41]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-08 09:20:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 11:20:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 09:20:41]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[nicole-troeger]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[gatherpress_person]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[60]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[Oma]]></title>
-		<link>https://wuk-experiments.test/produktion/oma/</link>
+		<link>https://jr26-experiments.test/produktion/oma/</link>
 		<pubDate>Wed, 08 Jul 2026 10:18:50 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/?post_type=gatherpress_play&#038;p=36</guid>
@@ -967,7 +800,6 @@
 										<category domain="_gatherpress_group" nicename="_julia-raab"><![CDATA[Figurentheater Julia Raab]]></category>
 		<category domain="_gatherpress_person" nicename="_julia-raab"><![CDATA[Julia Raab]]></category>
 		<category domain="production_status" nicename="laufend"><![CDATA[Laufend]]></category>
-		<category domain="_gatherpress_season" nicename="_paradiese"><![CDATA[Paradiese]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_gptc_colors_updated]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
@@ -1014,179 +846,11 @@
 		</wp:postmeta>
 				</item>
 					<item>
-		<title><![CDATA[Pension Tröger]]></title>
-		<link>https://wuk-experiments.test/produktion/pension-troeger/</link>
-		<pubDate>Wed, 08 Jul 2026 10:33:39 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://wuk-experiments.test/?post_type=gatherpress_play&#038;p=40</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p>Premiere</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:gatherpress/event-date {"displayType":"start","showTimezone":"no"} /--></div>
-<!-- /wp:group -->
-
-<!-- wp:gatherpress/cast-crew-list /-->
-
-<!-- wp:query {"queryId":0,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_event","order":"desc","orderBy":"date","inherit":false,"shadow_filter":1,"gatherpress_shadow_source_post_id":40,"gatherpress_shadow_source_post_type":"gatherpress_play"},"namespace":"gatherpress-event-query","metadata":{"name":"Upcoming Events"},"className":"gatherpress-event-query"} -->
-<div class="wp-block-query gatherpress-event-query"><!-- wp:post-template {"metadata":{"name":"Events Template"}} -->
-<!-- wp:gatherpress/event-date /-->
-
-<!-- wp:post-title /-->
-<!-- /wp:post-template -->
-
-<!-- wp:query-pagination {"className":"gatherpress-query-pagination"} -->
-<!-- wp:query-pagination-previous {"label":"Previous Events","className":"gatherpress-query-pagination-previous"} /-->
-
-<!-- wp:query-pagination-numbers {"className":"gatherpress-query-pagination-numbers"} /-->
-
-<!-- wp:query-pagination-next {"label":"Next Events","className":"gatherpress-query-pagination-next"} /-->
-<!-- /wp:query-pagination -->
-
-<!-- wp:query-no-results {"className":"gatherpress-query-no-results"} -->
-<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no events."} -->
-<p></p>
-<!-- /wp:paragraph -->
-<!-- /wp:query-no-results --></div>
-<!-- /wp:query -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>40</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-08 12:33:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-08 10:33:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 12:33:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 10:33:39]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[pension-troeger]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[gatherpress_play]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="_gatherpress_group" nicename="_ps"><![CDATA[Ensemble p+s]]></category>
-		<category domain="production_status" nicename="laufend"><![CDATA[Laufend]]></category>
-		<category domain="_gatherpress_person" nicename="_nicole-troeger"><![CDATA[Nicole Tröger]]></category>
-		<category domain="_gatherpress_season" nicename="_paradiese"><![CDATA[Paradiese]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_datetime]]></wp:meta_key>
-		<wp:meta_value><![CDATA[{"dateTimeStart":"2000-01-01 18:07:00","dateTimeEnd":"2000-01-01 20:07:00","timezone":"Europe/Berlin"}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_gatherpress_relations]]></wp:meta_key>
-		<wp:meta_value><![CDATA[[{"slug":"_nicole-troeger","id":34,"type":"gatherpress_person","role":"Spiel","department":"cast","order":1}]]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_datetime_start]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2000-01-01 18:07:00]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_datetime_end]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2000-01-01 20:07:00]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_timezone]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Europe/Berlin]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_datetime_start_gmt]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2000-01-01 17:07:00]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_datetime_end_gmt]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2000-01-01 19:07:00]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_gptc_colors_updated]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[59]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-			<wp:meta_key><![CDATA[gatherpress_datetimes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:14:"datetime_start";s:19:"2000-01-01 18:07:00";s:18:"datetime_start_gmt";s:19:"2000-01-01 17:07:00";s:12:"datetime_end";s:19:"2000-01-01 20:07:00";s:16:"datetime_end_gmt";s:19:"2000-01-01 19:07:00";s:8:"timezone";s:13:"Europe/Berlin";}]]></wp:meta_value>
-		</wp:postmeta>
-				</item>
-					<item>
-		<title><![CDATA[Paradiese]]></title>
-		<link>https://wuk-experiments.test/saison/paradiese/</link>
-		<pubDate>Wed, 08 Jul 2026 12:41:48 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://wuk-experiments.test/?post_type=gatherpress_season&#038;p=54</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"backgroundColor":"accent-3","textColor":"accent-2"} -->
-<p class="has-accent-2-color has-accent-3-background-color has-text-color has-background has-link-color">eine kiste in kapitel farbe</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>54</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-08 14:41:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-08 12:41:48]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 14:41:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 12:41:48]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[paradiese]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[gatherpress_season]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_gptc_colors_updated]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1783514526044]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_datetime]]></wp:meta_key>
-		<wp:meta_value><![CDATA[{"dateTimeStart":"2026-07-09 18:00:00","dateTimeEnd":"2027-01-05 17:00:00","timezone":"Europe/Berlin"}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[footnotes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_datetime_start]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2026-07-09 18:00:00]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_datetime_end]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2027-01-05 17:00:00]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_timezone]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Europe/Berlin]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_datetime_start_gmt]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2026-07-09 16:00:00]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[gatherpress_datetime_end_gmt]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2027-01-05 16:00:00]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-			<wp:meta_key><![CDATA[gatherpress_datetimes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:14:"datetime_start";s:19:"2026-07-09 18:00:00";s:18:"datetime_start_gmt";s:19:"2026-07-09 16:00:00";s:12:"datetime_end";s:19:"2027-01-05 17:00:00";s:16:"datetime_end_gmt";s:19:"2027-01-05 16:00:00";s:8:"timezone";s:13:"Europe/Berlin";}]]></wp:meta_value>
-		</wp:postmeta>
-				</item>
-					<item>
 		<title><![CDATA[241013_A3__OMA-Seite001]]></title>
-		<link>https://wuk-experiments.test/produktion/oma/241013_a3__oma-seite001/</link>
+		<link>https://jr26-experiments.test/produktion/oma/241013_a3__oma-seite001/</link>
 		<pubDate>Wed, 08 Jul 2026 14:33:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/2026/07/241013_A3__OMA-Seite001.png</guid>
+		<guid isPermaLink="false">https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/2026/07/241013_A3__OMA-Seite001.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1204,7 +868,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/2026/07/241013_A3__OMA-Seite001.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/2026/07/241013_A3__OMA-Seite001.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2026/07/241013_A3__OMA-Seite001.png]]></wp:meta_value>
@@ -1215,77 +879,11 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[pension-troeger--2.6---das-sommer-special-tickets_564540_4371785_222x222-1029892232]]></title>
-		<link>https://wuk-experiments.test/produktion/pension-troeger/pension-troeger-2-6-das-sommer-special-tickets_564540_4371785_222x222-1029892232/</link>
-		<pubDate>Wed, 08 Jul 2026 14:34:31 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/2026/07/pension-troeger-2.6-das-sommer-special-tickets_564540_4371785_222x222-1029892232.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>59</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-08 16:34:31]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-08 14:34:31]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 16:34:31]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 14:34:31]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[pension-troeger-2-6-das-sommer-special-tickets_564540_4371785_222x222-1029892232]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>40</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/2026/07/pension-troeger-2.6-das-sommer-special-tickets_564540_4371785_222x222-1029892232.jpg]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2026/07/pension-troeger-2.6-das-sommer-special-tickets_564540_4371785_222x222-1029892232.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:222;s:6:"height";i:222;s:4:"file";s:92:"2026/07/pension-troeger-2.6-das-sommer-special-tickets_564540_4371785_222x222-1029892232.jpg";s:8:"filesize";i:8448;s:5:"sizes";a:1:{s:9:"thumbnail";a:5:{s:4:"file";s:92:"pension-troeger-2.6-das-sommer-special-tickets_564540_4371785_222x222-1029892232-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:5682;}}s:10:"image_meta";a:13:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}s:3:"alt";s:0:"";}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[nicole-3033945236]]></title>
-		<link>https://wuk-experiments.test/person/nicole-troeger/nicole-3033945236/</link>
-		<pubDate>Wed, 08 Jul 2026 14:36:20 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/2026/07/nicole-3033945236.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>60</wp:post_id>
-		<wp:post_date><![CDATA[2026-07-08 16:36:20]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-07-08 14:36:20]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 16:36:20]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 14:36:20]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[nicole-3033945236]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>34</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/2026/07/nicole-3033945236.png]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2026/07/nicole-3033945236.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:400;s:6:"height";i:500;s:4:"file";s:29:"2026/07/nicole-3033945236.png";s:8:"filesize";i:200188;s:5:"sizes";a:2:{s:6:"medium";a:5:{s:4:"file";s:29:"nicole-3033945236-240x300.png";s:5:"width";i:240;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:99180;}s:9:"thumbnail";a:5:{s:4:"file";s:29:"nicole-3033945236-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:33618;}}s:10:"image_meta";a:13:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}s:3:"alt";s:0:"";}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[juli_september_2023-20-min_beschnitten-1073020650]]></title>
-		<link>https://wuk-experiments.test/person/julia-raab/juli_september_2023-20-min_beschnitten-1073020650/</link>
+		<link>https://jr26-experiments.test/person/julia-raab/juli_september_2023-20-min_beschnitten-1073020650/</link>
 		<pubDate>Wed, 08 Jul 2026 14:36:42 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/2026/07/juli_september_2023-20-min_beschnitten-1073020650.jpg</guid>
+		<guid isPermaLink="false">https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/2026/07/juli_september_2023-20-min_beschnitten-1073020650.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1303,7 +901,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/carstingaxion/wuk-experiments/main/wp-content/uploads/2026/07/juli_september_2023-20-min_beschnitten-1073020650.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/2026/07/juli_september_2023-20-min_beschnitten-1073020650.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2026/07/juli_september_2023-20-min_beschnitten-1073020650.jpg]]></wp:meta_value>
@@ -1315,7 +913,7 @@
 							</item>
 					<item>
 		<title><![CDATA[Lasst das Probieren beginnen]]></title>
-		<link>https://wuk-experiments.test/2026/07/08/lasst-das-probieren-beginnen/</link>
+		<link>https://jr26-experiments.test/2026/07/08/lasst-das-probieren-beginnen/</link>
 		<pubDate>Wed, 08 Jul 2026 15:02:24 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/?p=70</guid>
@@ -1345,10 +943,18 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Unsere neue Technik]]></title>
-		<link>https://wuk-experiments.test/2026/07/08/unsere-neue-technik/</link>
+		<link>https://jr26-experiments.test/2026/07/08/unsere-neue-technik/</link>
 		<pubDate>Wed, 08 Jul 2026 15:02:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/?p=72</guid>
@@ -1380,55 +986,39 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Navigation]]></title>
-		<link>https://wuk-experiments.test/2026/03/20/navigation/</link>
-		<pubDate>Fri, 20 Mar 2026 16:20:15 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://wuk-experiments.test/2026/03/20/navigation/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>4</wp:post_id>
-		<wp:post_date><![CDATA[2026-03-20 17:20:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-03-20 16:20:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-20 17:20:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-20 16:20:15]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[navigation]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
 		<title><![CDATA[Custom Styles]]></title>
-		<link>https://wuk-experiments.test/2026/03/20/wp-global-styles-wuk-experiments/</link>
-		<pubDate>Fri, 20 Mar 2026 16:29:00 +0000</pubDate>
+		<link>https://jr26-experiments.test/2026/08/15/wp-global-styles-jr26-experiments/</link>
+		<pubDate>Sat, 15 Aug 2026 09:32:34 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://wuk-experiments.test/2026/03/20/wp-global-styles-wuk-experiments/</guid>
+		<guid isPermaLink="false">https://jr26-experiments.test/2026/08/15/wp-global-styles-jr26-experiments/</guid>
 		<description></description>
-		<content:encoded><![CDATA[{"styles":[],"settings":[],"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded>
+		<content:encoded><![CDATA[{"version": 3, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>7</wp:post_id>
-		<wp:post_date><![CDATA[2026-03-20 17:29:00]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:00]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 17:20:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 15:20:59]]></wp:post_modified_gmt>
+		<wp:post_id>76</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-15 11:32:34]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-15 09:32:34]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 11:32:34]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 09:32:34]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[wp-global-styles-wuk-experiments]]></wp:post_name>
+		<wp:post_name><![CDATA[wp-global-styles-jr26-experiments]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="wp_theme" nicename="wuk-experiments"><![CDATA[wuk-experiments]]></category>
+										<category domain="wp_theme" nicename="jr26-experiments"><![CDATA[jr26-experiments]]></category>
 						</item>
 				</channel>
 </rss>
