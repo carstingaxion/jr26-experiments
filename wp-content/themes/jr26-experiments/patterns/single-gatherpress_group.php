@@ -47,21 +47,7 @@
 <!-- wp:gatherpress/event-date {"isLink":true} /-->
 
 <!-- wp:post-title {"isLink":true} /-->
-<!-- /wp:post-template -->
-
-<!-- wp:query-pagination {"className":"gatherpress-query-pagination"} -->
-<!-- wp:query-pagination-previous {"label":"<?php esc_attr_e('Previous Events', 'jr26-experiments');?>","className":"gatherpress-query-pagination-previous"} /-->
-
-<!-- wp:query-pagination-numbers {"className":"gatherpress-query-pagination-numbers"} /-->
-
-<!-- wp:query-pagination-next {"label":"<?php esc_attr_e('Next Events', 'jr26-experiments');?>","className":"gatherpress-query-pagination-next"} /-->
-<!-- /wp:query-pagination -->
-
-<!-- wp:query-no-results {"className":"gatherpress-query-no-results"} -->
-<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no events."} -->
-<p></p>
-<!-- /wp:paragraph -->
-<!-- /wp:query-no-results --></div>
+<!-- /wp:post-template --></div>
 <!-- /wp:query -->
 <!-- /wp:gatherpress/venue --></div>
 <!-- /wp:column --></div>
@@ -73,7 +59,13 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"25%"} -->
-<div class="wp-block-column" style="flex-basis:25%"><!-- wp:template-part {"slug":"sidebar"} /--></div>
+<div class="wp-block-column" style="flex-basis:25%"><!-- wp:query {"queryId":12,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_play","gatherpress_event_query":"upcoming","include_unfinished":1,"order":"asc","orderBy":"datetime","inherit":false,"sticky":"","parents":[],"format":[],"shadow_filter":1,"gatherpress_shadow_source_post_id":"jr26-experiments//single-gatherpress_group","gatherpress_shadow_source_post_type":"gatherpress_group"},"namespace":"gatherpress-event-query","metadata":{"name":"Upcoming Produktionen"},"className":"gatherpress-event-query"} -->
+<div class="wp-block-query gatherpress-event-query"><!-- wp:post-template {"metadata":{"name":"Events Template"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"accent-1","textColor":"contrast"} -->
+<!-- wp:post-title /-->
+
+<!-- wp:post-excerpt /-->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
@@ -81,6 +73,30 @@
 <div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:group -->
+
+<!-- wp:query {"queryId":12,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_play","gatherpress_event_query":"past","include_unfinished":0,"order":"desc","orderBy":"datetime","inherit":false,"sticky":"","parents":[],"format":[],"shadow_filter":1,"gatherpress_shadow_source_post_id":"jr26-experiments//single-gatherpress_group","gatherpress_shadow_source_post_type":"gatherpress_group"},"namespace":"gatherpress-event-query","enhancedPagination":true,"metadata":{"name":"Past Produktionen"},"className":"gatherpress-event-query"} -->
+<div class="wp-block-query gatherpress-event-query"><!-- wp:post-template {"metadata":{"name":"Events Template"},"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|50"}}},"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:media-text {"mediaType":"image","verticalAlignment":"center","imageFill":false,"useFeaturedImage":true} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-center"><figure class="wp-block-media-text__media"></figure><div class="wp-block-media-text__content"><!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:post-excerpt /--></div></div>
+<!-- /wp:media-text -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"className":"gatherpress-query-pagination"} -->
+<!-- wp:query-pagination-previous {"label":"<?php esc_attr_e('Ältere Produktionen', 'jr26-experiments');?>","className":"gatherpress-query-pagination-previous"} /-->
+
+<!-- wp:query-pagination-numbers {"className":"gatherpress-query-pagination-numbers"} /-->
+
+<!-- wp:query-pagination-next {"label":"<?php esc_attr_e('Neuere Produktionen', 'jr26-experiments');?>","className":"gatherpress-query-pagination-next"} /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results {"className":"gatherpress-query-no-results"} -->
+<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no events."} -->
+<p></p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query -->
 
 <!-- wp:group {"tagName":"nav","align":"full","style":{"border":{"top":{"color":"var:preset|color|accent-6","width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"},"ariaLabel":"Post navigation"} -->
 <nav class="wp-block-group alignfull" aria-label="Post navigation" style="border-top-color:var(--wp--preset--color--accent-6);border-top-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:post-navigation-link {"type":"previous","showTitle":true,"arrow":"arrow"} /-->

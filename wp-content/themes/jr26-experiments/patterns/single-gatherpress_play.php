@@ -57,9 +57,9 @@
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><!-- wp:group {"tagName":"nav","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"},"ariaLabel":"Post navigation"} -->
-<nav aria-label="Post navigation" class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:post-navigation-link {"type":"previous","label":"<?php esc_attr_e('Previous Photo', 'jr26-experiments');?>","fontSize":"small"} /-->
+<nav aria-label="Post navigation" class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:post-navigation-link {"type":"previous","label":"<?php esc_attr_e('Letzte Produktion', 'jr26-experiments');?>","arrow":"chevron","fontSize":"small"} /-->
 
-<!-- wp:post-navigation-link {"label":"<?php esc_attr_e('Next Photo', 'jr26-experiments');?>","fontSize":"small"} /--></nav>
+<!-- wp:post-navigation-link {"label":"<?php esc_attr_e('Nächste Produktion', 'jr26-experiments');?>","arrow":"chevron","fontSize":"small"} /--></nav>
 <!-- /wp:group -->
 
 <!-- wp:gatherpress/cast-crew-list {"showDepartmentHeadings":false,"columns":4,"className":"is-style-cards"} /--></div>

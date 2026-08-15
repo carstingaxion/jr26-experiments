@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.0.2" created="2026-08-15 12:39" -->
+	<!-- generator="WordPress/7.0.2" created="2026-08-15 12:56" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>JR26 experiments</title>
 	<link>https://jr26-experiments.test</link>
 	<description>jr26 xp</description>
-	<pubDate>Sat, 15 Aug 2026 12:39:59 +0000</pubDate>
+	<pubDate>Sat, 15 Aug 2026 12:56:56 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://jr26-experiments.test</wp:base_site_url>
@@ -219,7 +219,7 @@
 <!-- wp:post-terms {"term":"gatherpress_topic","className":"is-style-post-terms-1","neutraliseLinks":true} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:gatherpress/event-date {"displayType":"start","showTimezone":"no","style":{"typography":{"textAlign":"left"}}} /-->
+<!-- wp:gatherpress/event-date {"displayType":"start","isLink":true,"showTimezone":"no","style":{"typography":{"textAlign":"left"}}} /-->
 
 <!-- wp:media-text {"mediaType":"image","mediaWidth":25,"imageFill":false,"useFeaturedImage":true} -->
 <div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:25% auto"><figure class="wp-block-media-text__media"></figure><div class="wp-block-media-text__content"><!-- wp:post-title {"isLink":true,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"xx-large"} /-->
@@ -258,8 +258,8 @@
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:29:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-15 14:32:43]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-15 12:32:43]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 14:56:34]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 12:56:34]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[startseite]]></wp:post_name>
@@ -1361,8 +1361,8 @@
 		<wp:post_id>76</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-15 11:32:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-15 09:32:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-15 14:32:52]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-15 12:32:52]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 14:56:42]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 12:56:42]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-jr26-experiments]]></wp:post_name>
