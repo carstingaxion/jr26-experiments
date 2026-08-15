@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.0.2" created="2026-08-15 11:52" -->
+	<!-- generator="WordPress/7.0.2" created="2026-08-15 12:22" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>JR26 experiments</title>
 	<link>https://jr26-experiments.test</link>
 	<description>jr26 xp</description>
-	<pubDate>Sat, 15 Aug 2026 11:52:01 +0000</pubDate>
+	<pubDate>Sat, 15 Aug 2026 12:22:57 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://jr26-experiments.test</wp:base_site_url>
@@ -114,49 +114,49 @@
 		<wp:term_name><![CDATA[Laufend]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>23</wp:term_id>
+		<wp:term_id>13</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_play]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_nils-holgersson]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Nils Holgersson]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>13</wp:term_id>
+		<wp:term_id>14</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_play]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_oma]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Oma]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>14</wp:term_id>
-		<wp:term_taxonomy><![CDATA[_gatherpress_group]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[online-event]]></wp:term_slug>
-		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Online event]]></wp:term_name>
-	</wp:term>
-		<wp:term>
 		<wp:term_id>15</wp:term_id>
-		<wp:term_taxonomy><![CDATA[_gatherpress_venue]]></wp:term_taxonomy>
+		<wp:term_taxonomy><![CDATA[_gatherpress_group]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[online-event]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Online event]]></wp:term_name>
 	</wp:term>
 		<wp:term>
 		<wp:term_id>16</wp:term_id>
+		<wp:term_taxonomy><![CDATA[_gatherpress_venue]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[online-event]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Online event]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>17</wp:term_id>
 		<wp:term_taxonomy><![CDATA[gatherpress_topic]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[puppetry]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[puppetry]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>22</wp:term_id>
+		<wp:term_id>18</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_group]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_schaustelle-halle]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Schaustelle Halle]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>17</wp:term_id>
+		<wp:term_id>19</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_person]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_simon-van-parys]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -170,14 +170,14 @@
 		<wp:term_name><![CDATA[Vorproduktion]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>18</wp:term_id>
+		<wp:term_id>20</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_venue]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_wuk]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[wuk]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>19</wp:term_id>
+		<wp:term_id>21</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_person]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_yves-paradis]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -258,8 +258,8 @@
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:29:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-15 13:50:35]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-15 11:50:35]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 14:19:41]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 12:19:41]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[startseite]]></wp:post_name>
@@ -330,8 +330,8 @@
 		<wp:post_id>17</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 10:24:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 08:24:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-15 13:31:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-15 11:31:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-07-08 10:24:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-07-08 08:24:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[julia-raab]]></wp:post_name>
@@ -733,7 +733,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_static_map]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:18:"16x600x300xroadmap";a:6:{s:3:"url";s:177:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300.png";s:6:"url_2x";s:180:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300@2x.png";s:4:"hash";s:32:"9637933afd169d4805f48a5fea77fc07";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:18:"16x600x300xroadmap";a:6:{s:3:"url";s:176:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300.png";s:6:"url_2x";s:179:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300@2x.png";s:4:"hash";s:32:"9637933afd169d4805f48a5fea77fc07";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -965,6 +965,14 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Unsere neue Technik]]></title>
@@ -993,6 +1001,14 @@
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -1128,21 +1144,13 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://jr26-experiments.test/?post_type=gatherpress_play&#038;p=82</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p>Premiere</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:gatherpress/event-date {"displayType":"end","showTimezone":"no"} /--></div>
-<!-- /wp:group -->
-
-<!-- wp:gatherpress/cast-crew-list {"showDepartmentHeadings":false} /-->]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Ein Maskensolo]]></excerpt:encoded>
 		<wp:post_id>82</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-15 11:49:06]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-15 09:49:06]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-15 11:49:06]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-15 09:49:06]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 14:19:01]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 12:19:01]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[die-dicke-spielt-medea]]></wp:post_name>
@@ -1370,8 +1378,8 @@
 		<wp:post_id>76</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-15 11:32:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-15 09:32:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-15 13:51:43]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-15 11:51:43]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 14:22:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 12:22:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-jr26-experiments]]></wp:post_name>
