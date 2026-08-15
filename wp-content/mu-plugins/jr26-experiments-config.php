@@ -99,3 +99,25 @@ add_filter( 'gatherpress_relations_departments', function ( array $departments, 
     return $departments;
 }, 10, 2 );
  **************************************************************************************************************************/
+
+
+
+
+/************************************************************************************************************************** 
+ * 
+ * "Duplicate As" plugin configuration
+ * 
+ * @see https://github.com/carstingaxion/duplicate-as
+ * 
+ **************************************************************************************************************************/
+
+add_action( 'init', 'jr26_experiments_duplicate_as_config', 11 );
+
+function jr26_experiments_duplicate_as_config() {
+	// Remove the "Duplicate As" menu item for the "post" and "page" post types.
+	remove_post_type_support( 'post', 'duplicate_as' );
+	remove_post_type_support( 'page', 'duplicate_as' );
+
+	// Allow to duplicate "gatherpress_event" posts.
+	add_post_type_support( 'gatherpress_event', 'duplicate_as' );
+}
