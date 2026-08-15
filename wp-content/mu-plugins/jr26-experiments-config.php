@@ -121,3 +121,17 @@ function jr26_experiments_duplicate_as_config() {
 	// Allow to duplicate "gatherpress_event" posts.
 	add_post_type_support( 'gatherpress_event', 'duplicate_as' );
 }
+
+
+/************************************************************************************************************************** 
+ * 
+ * "Theater Production Subsites" plugin configuration
+ * 
+ * @see https://github.com/figuren-theater/theater-production-subsites
+ * 
+ **************************************************************************************************************************/
+add_action( 'plugins_loaded', 'jr26_experiments_theater_production_subsites_config', 11 );
+
+function jr26_experiments_theater_production_subsites_config() {
+	add_post_type_support( 'gatherpress_play', 'hierachical-sub-post-type' );
+}
