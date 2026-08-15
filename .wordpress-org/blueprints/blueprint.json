@@ -206,6 +206,76 @@
     {
       "step": "installPlugin",
       "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-references/releases/latest/download/gatherpress-references.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-attendee-count/releases/latest/download/gatherpress-attendee-count.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-statistics/releases/latest/download/gatherpress-statistics.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-magic-menu/releases/latest/download/gatherpress-magic-menu.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-tickets/releases/latest/download/gatherpress-tickets.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-location-hierarchy/releases/latest/download/gatherpress-location-hierarchy.zip"
+      },
+      "options": {
+          "activate": false
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/speaking-permalinks/releases/latest/download/speaking-permalinks.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
           "resource": "git:directory",
           "url": "https://github.com/humanmade/query-filter",
           "ref": "v0.3.1",
