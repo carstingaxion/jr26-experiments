@@ -1,0 +1,270 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.4",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "landingPage": "/wp-admin",
+  "steps": [
+    {
+      "step": "login"
+    },
+    {
+      "step": "setSiteLanguage",
+      "language": "de_DE"
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "JR26 experiments",
+        "blogdescription": "jr26 xp",
+        "wordpress_export_to_server__owner_repo_branch": "carstingaxion/jr26-experiments/main",
+        "wordpress_export_to_server__export_home": "https://jr26-experiments.test",
+        "timezone_string": "Europe/Berlin",
+        "date_format": "d. F Y",
+        "time_format": "H:i",
+        "start_of_week": "1",
+        "show_on_front": "page",
+        "page_on_front": "6"
+      }
+    },
+    {
+      "step": "defineWpConfigConsts",
+      "consts": {
+        "UPLOADS": "wp-content/uploads",
+        "CORE_UPGRADE_SKIP_NEW_BUNDLED": true,
+        "GATHERPRESS_ALPHA_VERSION": true
+      }
+    },
+    {
+      "step": "updateUserMeta",
+      "meta": {
+          "admin_color": "modern",
+          "show_admin_bar_front": false,
+          "show_welcome_panel": false,
+          "manageedit-gatherpress_eventcolumnshidden": [
+            "TEMPDISABLED_taxonomy-gatherpress_topic",
+            "taxonomy-_gatherpress_person",
+            "date"
+          ],
+          "closedpostboxes_dashboard": [
+            "dashboard_site_health",
+            "dashboard_primary"
+          ]
+      },
+      "userId": 1
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post delete 1 2 3 --force",
+      "progress": {
+        "weight": 10,
+        "caption": "Deleting the WordPress default content."
+      }
+    },
+    {
+        "step": "rm",
+        "path": "/wordpress/wp-content/plugins/hello.php"
+    },
+    {
+        "step": "rmdir",
+        "path": "/wordpress/wp-content/themes/twentytwentyfive"
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "create-block-theme"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "url",
+				"url": "https://github.com/GatherPress/gatherpress/releases/download/0.35.1/gatherpress.0.35.1.zip"
+			},
+      "options": {
+          "activate": true
+      }
+		},
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-productions/releases/latest/download/gatherpress-productions.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-relations/releases/latest/download/gatherpress-relations.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-timed-separator/releases/latest/download/gatherpress-timed-separator.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/duplicate-as/releases/latest/download/duplicate-as.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-export-import/releases/latest/download/gatherpress-export-import.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-cache-invalidation-hooks/releases/latest/download/gatherpress-cache-invalidation-hooks.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/query-groupedby-taxonomy/releases/latest/download/query-groupedby-taxonomy.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-groups/releases/latest/download/gatherpress-groups.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "wp-comment-humility"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/gatherpress-at-a-glance/releases/latest/download/gatherpress-at-a-glance.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/post-terms-block-unlinked/releases/latest/download/post-terms-block-unlinked.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "git:directory",
+          "url": "https://github.com/humanmade/query-filter",
+          "ref": "v0.3.1",
+          "refType": "tag"
+        },
+      "options": {
+          "activate": true,
+		      "targetFolderName": "query-filter"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "view-transitions"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "git:directory",
+        "url": "https://github.com/carstingaxion/jr26-experiments",
+        "ref": "main",
+        "refType": "branch",
+        "path": "wp-content/themes/jr26-experiments"
+      },
+      "options": {
+        "activate": true,
+        "targetFolderName": "jr26-experiments"
+      },
+      "progress": {
+        "caption": "Installing theme from GitHub: carstingaxion/jr26-experiments (main)"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/mu-plugins/jr26-experiments-config.php",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/mu-plugins/jr26-experiments-config.php"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/mu-plugins/wordpress-export-to-server.php",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/carstingaxion/wordpress-export-to-server/main/wordpress-export-to-server.php"
+      }
+    },
+    {
+        "step": "importWxr",
+        "file": {
+            "resource": "url",
+            "url": "https://raw.githubusercontent.com/carstingaxion/jr26-experiments/refs/heads/main/wp-content/jr26-experiments-main/export.xml"
+        }
+    }
+  ]
+}
