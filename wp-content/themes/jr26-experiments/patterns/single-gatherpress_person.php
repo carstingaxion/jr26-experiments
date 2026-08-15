@@ -13,7 +13,9 @@
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"40%"} -->
 <div class="wp-block-column" style="flex-basis:40%"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group alignwide"><!-- wp:post-title {"level":1,"align":"wide","fontSize":"x-large"} /--></div>
-<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:gatherpress/recent-relations {"maxRoles":31,"showDepartment":false,"showDate":false,"filterPostType":"gatherpress_group"} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"60%"} -->
@@ -23,11 +25,7 @@
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"100%"} -->
-<div class="wp-block-column" style="flex-basis:100%"><!-- wp:post-terms {"term":"_gatherpress_group"} /-->
-
-<!-- wp:post-terms {"term":"_gatherpress_play"} /-->
-
-<!-- wp:gatherpress/recent-relations {"maxRoles":31,"showPostType":true} /--></div>
+<div class="wp-block-column" style="flex-basis:100%"><!-- wp:gatherpress/recent-relations {"maxRoles":31,"showDepartment":false,"filterPostType":"gatherpress_play"} /--></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
