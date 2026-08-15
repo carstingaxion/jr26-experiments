@@ -25,30 +25,22 @@
 <!-- wp:gatherpress/event-date {"displayType":"start","showTimezone":"no"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-small-font-size"><!-- wp:paragraph -->
-<p><?php esc_html_e('Posted by', 'jr26-experiments');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:post-author-name {"isLink":true} /--></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php esc_html_e('Gruppe:', 'jr26-experiments');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:post-terms {"term":"_gatherpress_group","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} /--></div>
-<!-- /wp:group -->
-
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size"><?php esc_html_e('Themen:', 'jr26-experiments');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-terms {"term":"gatherpress_topic","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"bottom"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size"><?php esc_html_e('Eine Produktion von:', 'jr26-experiments');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:post-terms {"term":"_gatherpress_group","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -74,11 +66,19 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"33.33%"} -->
-<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:query {"queryId":13,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_event_query":"upcoming","include_unfinished":1,"order":"asc","orderBy":"datetime","inherit":false,"shadow_filter":1,"gatherpress_shadow_source_post_id":"jr26-experiments//single-gatherpress_play","gatherpress_shadow_source_post_type":"gatherpress_play"},"namespace":"gatherpress-event-query","metadata":{"name":"Upcoming Events"},"className":"gatherpress-event-query"} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:query {"queryId":13,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_event_query":"upcoming","include_unfinished":1,"order":"asc","orderBy":"datetime","inherit":false,"shadow_filter":1,"gatherpress_shadow_source_post_id":"jr26-experiments//single-gatherpress_play","gatherpress_shadow_source_post_type":"gatherpress_play"},"namespace":"gatherpress-event-query","enhancedPagination":true,"metadata":{"name":"Upcoming Events"},"className":"gatherpress-event-query"} -->
 <div class="wp-block-query gatherpress-event-query"><!-- wp:post-template {"metadata":{"name":"Events Template"}} -->
 <!-- wp:gatherpress/event-date {"isLink":true,"showTimezone":"no"} /-->
 
-<!-- wp:post-title {"isLink":true} /-->
+<!-- wp:gatherpress/venue {"patternPicked":true} -->
+<!-- wp:group {"className":"gatherpress\u002d\u002dhas-venue-address","style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group gatherpress--has-venue-address" style="margin-top:0;margin-bottom:0"><!-- wp:post-title {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}}} /-->
+
+<!-- wp:icon {"icon":"core/map-marker","style":{"dimensions":{"width":"24px"}}} /-->
+
+<!-- wp:gatherpress/venue-detail {"placeholder":"Venue address…","fieldType":"address"} /--></div>
+<!-- /wp:group -->
+<!-- /wp:gatherpress/venue -->
 <!-- /wp:post-template -->
 
 <!-- wp:query-pagination {"className":"gatherpress-query-pagination"} -->
