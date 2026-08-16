@@ -164,3 +164,20 @@ if ( ! function_exists( 'jr26_experiments_format_binding' ) ) :
 		}
 	}
 endif;
+
+add_action('init', function() {
+	register_block_bindings_source('jr26_experiments/parent-title', [
+		'label' => 'Post Parent',
+		'uses_context' => [ 'postId' ],
+		'get_value_callback' => function($args, $instance) {
+			if (
+				$instance->context['postId']
+				&& $parent = get_post_parent($instance->context['postId'])
+			) {
+				return get_the_title($parent);
+			}
+
+			return null;
+		}
+	]);
+});
