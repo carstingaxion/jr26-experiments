@@ -175,7 +175,6 @@ endif;
 
 
 function jr26_experiments_parent_title_binding($args, $instance) {
-error_log('jr26_experiments_parent_title_binding: '.$instance->context['postId']);
   if (
         $instance->context['postId']
         && $parent = get_post_parent($instance->context['postId'])
