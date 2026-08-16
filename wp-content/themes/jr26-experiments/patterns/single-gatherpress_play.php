@@ -54,7 +54,13 @@
 <!-- wp:post-navigation-link {"label":"<?php esc_attr_e('Nächste Produktion', 'jr26-experiments');?>","arrow":"chevron","fontSize":"small"} /--></nav>
 <!-- /wp:group -->
 
-<!-- wp:gatherpress/cast-crew-list {"showDepartmentHeadings":false,"columns":4,"className":"is-style-cards"} /--></div>
+<!-- wp:gatherpress/cast-crew-list {"showDepartmentHeadings":false,"columns":4,"className":"is-style-cards"} /-->
+
+<!-- wp:group {"layout":{"type":"grid"}} -->
+<div class="wp-block-group"><!-- wp:gatherpress/statistics {"labelSingular":"Spieltermin","labelPlural":"Spieltermine","selectedTaxonomyTerms":[],"metadata":{"name":"Past: Total Spieltermine"}} /-->
+
+<!-- wp:gatherpress/statistics {"statisticType":"total_attendees","labelSingular":"Besucher","labelPlural":"Besucher","selectedTaxonomy":"_gatherpress_play","metadata":{"name":"Past: Total Attendees"}} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:post-featured-image {"aspectRatio":"auto","align":"wide"} /--></div>
