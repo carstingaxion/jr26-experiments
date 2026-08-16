@@ -143,6 +143,14 @@ if ( ! function_exists( 'jr26_experiments_register_block_bindings' ) ) :
 				'get_value_callback' => 'jr26_experiments_format_binding',
 			)
 		);
+      register_block_bindings_source(
+        'jr26-experiments/parent-title',
+        array(
+    		'label' => 'Post Parent',
+    		'uses_context' => [ 'postId' ],
+    		'get_value_callback' => 'jr26_experiments_parent_title_binding',
+    	)
+      );
 	}
 endif;
 add_action( 'init', 'jr26_experiments_register_block_bindings' );
@@ -165,19 +173,15 @@ if ( ! function_exists( 'jr26_experiments_format_binding' ) ) :
 	}
 endif;
 
-add_action('init', function() {
-	register_block_bindings_source('jr26_experiments/parent-title', [
-		'label' => 'Post Parent',
-		'uses_context' => [ 'postId' ],
-		'get_value_callback' => function($args, $instance) {
-			if (
-				$instance->context['postId']
-				&& $parent = get_post_parent($instance->context['postId'])
-			) {
-				return get_the_title($parent);
-			}
 
-			return null;
-		}
-	]);
-});
+function jr26_experiments_parent_title_binding($args, $instance) {
+error_log('jr26_experiments_parent_title_binding: '.$instance->context['postId']);
+  if (
+        $instance->context['postId']
+        && $parent = get_post_parent($instance->context['postId'])
+    ) {
+        return get_the_title($parent);
+    }
+
+    return null;
+}
