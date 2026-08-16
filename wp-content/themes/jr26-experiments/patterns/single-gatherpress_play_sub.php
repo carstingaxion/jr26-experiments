@@ -11,7 +11,7 @@
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60)"><!-- wp:post-title {"level":1} /-->
 
-<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"jr26_experiments/parent-title"}}}} -->
+<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"jr26-experiments/parent-title"}}}} -->
 <p><?php esc_html_e('Post parent title.', 'jr26-experiments');?></p>
 <!-- /wp:paragraph -->
 
