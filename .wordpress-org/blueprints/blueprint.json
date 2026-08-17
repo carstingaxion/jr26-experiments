@@ -307,6 +307,16 @@
       }
     },
     {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "query-monitor"
+      },
+      "options": {
+        "activate": false
+      }
+    },
+    {
       "step": "installTheme",
       "themeData": {
         "resource": "git:directory",
