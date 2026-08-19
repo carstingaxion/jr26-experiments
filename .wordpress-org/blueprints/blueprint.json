@@ -286,10 +286,8 @@
     {
       "step": "installPlugin",
       "pluginData": {
-          "resource": "git:directory",
-          "url": "https://github.com/humanmade/query-filter",
-          "ref": "v0.3.1",
-          "refType": "tag"
+          "resource": "url",
+          "url": "https://github.com/humanmade/query-filter/releases/download/v0.4.0/query-filter-v0.4.0.zip"
         },
       "options": {
           "activate": true,
