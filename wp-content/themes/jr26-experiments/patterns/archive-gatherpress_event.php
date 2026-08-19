@@ -8,11 +8,11 @@
 <!-- wp:template-part {"slug":"header"} /-->
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"gatherpress_event","order":"asc","orderBy":"date","inherit":false,"include_unfinished":0},"namespace":"gatherpress-event-query","metadata":{"name":"Upcoming Events"},"align":"wide","className":"gatherpress-event-query"} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"gatherpress_event","order":"asc","orderBy":"datetime","inherit":false,"include_unfinished":0},"namespace":"gatherpress-event-query","metadata":{"name":"Upcoming Events"},"align":"wide","className":"gatherpress-event-query"} -->
 <div class="wp-block-query alignwide gatherpress-event-query"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"20%"} -->
 <div class="wp-block-column" style="flex-basis:20%"><!-- wp:details -->
-<details class="wp-block-details"><summary><?php esc_html_e('Nach Gruppen', 'jr26-experiments');?></summary><!-- wp:query-filter/taxonomy {"taxonomy":"_gatherpress_group","label":"groups","showLabel":false,"displayType":"radio"} /--></details>
+<details class="wp-block-details"><summary><?php esc_html_e('Nach Produktionen', 'jr26-experiments');?></summary><!-- wp:query-filter/taxonomy {"taxonomy":"_gatherpress_play","emptyLabel":"Alle","label":"Produktionen","showLabel":false,"displayType":"radio"} /--></details>
 <!-- /wp:details -->
 
 <!-- wp:details -->
@@ -45,7 +45,15 @@
 
 <!-- wp:gatherpress/venue-detail {"placeholder":"Venue address…","fieldType":"address"} /--></div>
 <!-- /wp:group -->
-<!-- /wp:gatherpress/venue --></div></div>
+<!-- /wp:gatherpress/venue -->
+
+<!-- wp:gatherpress/online-event -->
+<div class="wp-block-gatherpress-online-event"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:icon {"icon":"core/capture-video","style":{"dimensions":{"width":"24px"}}} /-->
+
+<!-- wp:gatherpress/online-event-link {"linkText":"\u003cspan class=\u0022gatherpress-tooltip\u0022 data-gatherpress-tooltip=\u0022Link available for attendees only.\u0022\u003eOnline event\u003c/span\u003e"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:gatherpress/online-event --></div></div>
 <!-- /wp:media-text -->
 <!-- /wp:post-template -->
 
