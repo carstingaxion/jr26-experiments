@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.0.4" created="2026-08-19 15:17" -->
+	<!-- generator="WordPress/7.0.4" created="2026-08-19 16:02" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>JR26 experiments</title>
 	<link>https://jr26-experiments.test</link>
 	<description>jr26 xp</description>
-	<pubDate>Wed, 19 Aug 2026 15:17:42 +0000</pubDate>
+	<pubDate>Wed, 19 Aug 2026 16:02:05 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://jr26-experiments.test</wp:base_site_url>
@@ -1317,8 +1317,8 @@
 		<wp:post_id>116</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-19 17:00:40]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-19 15:00:40]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-19 17:09:11]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-19 15:09:11]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-19 17:00:40]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-19 15:00:40]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[weekly-huddle-online-event-2026]]></wp:post_name>
@@ -1450,7 +1450,7 @@
 <!-- wp:cover {"useFeaturedImage":true,"dimRatio":70,"overlayColor":"contrast","isUserOverlayColor":true,"minHeight":430,"minHeightUnit":"px","contentPosition":"center center","style":{"spacing":{"padding":{"right":"0","left":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"border":{"width":"1px"}},"textColor":"base","borderColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-cover has-border-color has-base-border-color has-base-color has-text-color has-link-color" style="border-width:1px;padding-right:0;padding-left:0;min-height:430px"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-70 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"css":"height:100%"},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between","justifyContent":"stretch"}} -->
 <div class="wp-block-group has-custom-css" style="min-height:100%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:gatherpress/event-date {"displayType":"start","startDateFormat":"m. F 'y","style":{"spacing":{"margin":{"right":"0","left":"0"},"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}}} /-->
+<div class="wp-block-group"><!-- wp:gatherpress/event-date {"displayType":"start","isLink":true,"startDateFormat":"d. F 'y","showTimezone":"no","style":{"spacing":{"margin":{"right":"0","left":"0"},"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}}} /-->
 
 <!-- wp:post-terms {"term":"gatherpress_topic","className":"is-style-post-terms-1","style":{"typography":{"textAlign":"right"},"spacing":{"margin":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}}} /--></div>
 <!-- /wp:group -->
@@ -1459,15 +1459,25 @@
 <div style="height:100px;width:0px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:post-title {"isLink":true,"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}}} /--></div>
-<!-- /wp:group -->
+<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:post-title {"isLink":true,"style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}}} /-->
 
 <!-- wp:gatherpress/venue {"patternPicked":true} -->
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:post-title {"textAlign":"left","level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"},"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}}} /--></div>
+<!-- wp:group {"className":"gatherpress\u002d\u002dhas-venue-address","style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group gatherpress--has-venue-address" style="margin-top:0;margin-bottom:0"><!-- wp:icon {"icon":"core/map-marker","style":{"dimensions":{"width":"24px"}}} /-->
+
+<!-- wp:post-title {"fontSize":"large"} /--></div>
 <!-- /wp:group -->
-<!-- /wp:gatherpress/venue --></div>
+<!-- /wp:gatherpress/venue -->
+
+<!-- wp:gatherpress/online-event -->
+<div class="wp-block-gatherpress-online-event"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:icon {"icon":"core/capture-video","style":{"dimensions":{"width":"24px"}}} /-->
+
+<!-- wp:gatherpress/online-event-link {"linkText":"\u003cspan class=\u0022gatherpress-tooltip\u0022 data-gatherpress-tooltip=\u0022Link available for attendees only.\u0022\u003eOnline event\u003c/span\u003e"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:gatherpress/online-event --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover -->
 <!-- /wp:post-template -->
@@ -1490,8 +1500,8 @@
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:29:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-19 17:12:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-19 15:12:12]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-19 17:59:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-19 15:59:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[startseite]]></wp:post_name>
@@ -1588,7 +1598,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_static_map]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:18:"16x600x300xroadmap";a:6:{s:3:"url";s:182:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/8-friesenstrasse-halle-saale-sachsen-anhalt-06112-osm-roadmap-16-600-300.png";s:6:"url_2x";s:185:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/8-friesenstrasse-halle-saale-sachsen-anhalt-06112-osm-roadmap-16-600-300@2x.png";s:4:"hash";s:32:"90c89870009e56065101a38826c31439";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:18:"16x600x300xroadmap";a:6:{s:3:"url";s:184:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/8-friesenstrasse-halle-saale-sachsen-anhalt-06112-osm-roadmap-16-600-300.png";s:6:"url_2x";s:187:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/8-friesenstrasse-halle-saale-sachsen-anhalt-06112-osm-roadmap-16-600-300@2x.png";s:4:"hash";s:32:"90c89870009e56065101a38826c31439";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1630,7 +1640,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_static_map]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:18:"16x600x300xroadmap";a:6:{s:3:"url";s:178:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300.png";s:6:"url_2x";s:181:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300@2x.png";s:4:"hash";s:32:"9637933afd169d4805f48a5fea77fc07";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:18:"16x600x300xroadmap";a:6:{s:3:"url";s:180:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300.png";s:6:"url_2x";s:183:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300@2x.png";s:4:"hash";s:32:"9637933afd169d4805f48a5fea77fc07";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1658,6 +1668,14 @@
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -1860,6 +1878,14 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
@@ -1873,8 +1899,8 @@
 		<wp:post_id>76</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-15 11:32:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-15 09:32:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-19 17:15:54]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-19 15:15:54]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-19 18:00:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-19 16:00:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-jr26-experiments]]></wp:post_name>
@@ -1893,13 +1919,13 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://jr26-experiments.test/?p=109</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Blog","url":"\/scope:loyal-glamorous-country\/scope:humble-quiet-state\/scope:ambitious-trendy-town\/blog","kind":"custom"} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Blog","url":"\/scope:loyal-glamorous-country-2\/scope:loyal-glamorous-country\/scope:humble-quiet-state\/scope:ambitious-trendy-town\/blog","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"About","url":"\/scope:loyal-glamorous-country\/scope:humble-quiet-state\/scope:ambitious-trendy-town\/"} /-->
+<!-- wp:navigation-link {"label":"About","url":"\/scope:loyal-glamorous-country-2\/scope:loyal-glamorous-country\/scope:humble-quiet-state\/scope:ambitious-trendy-town\/"} /-->
 
-<!-- wp:navigation-link {"label":"FAQs","url":"\/scope:loyal-glamorous-country\/scope:humble-quiet-state\/scope:ambitious-trendy-town\/"} /-->
+<!-- wp:navigation-link {"label":"FAQs","url":"\/scope:loyal-glamorous-country-2\/scope:loyal-glamorous-country\/scope:humble-quiet-state\/scope:ambitious-trendy-town\/"} /-->
 
-<!-- wp:navigation-link {"label":"Authors","url":"\/scope:loyal-glamorous-country\/scope:humble-quiet-state\/scope:ambitious-trendy-town\/"} /-->
+<!-- wp:navigation-link {"label":"Authors","url":"\/scope:loyal-glamorous-country-2\/scope:loyal-glamorous-country\/scope:humble-quiet-state\/scope:ambitious-trendy-town\/"} /-->
 
 <!-- wp:gatherpress/magic-menu /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
