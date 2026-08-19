@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.0.4" created="2026-08-19 16:02" -->
+	<!-- generator="WordPress/7.0.4" created="2026-08-19 18:28" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>JR26 experiments</title>
 	<link>https://jr26-experiments.test</link>
 	<description>jr26 xp</description>
-	<pubDate>Wed, 19 Aug 2026 16:02:05 +0000</pubDate>
+	<pubDate>Wed, 19 Aug 2026 18:28:17 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://jr26-experiments.test</wp:base_site_url>
@@ -1445,12 +1445,16 @@
 <!-- wp:gatherpress/statistics {"statisticType":"total_attendees","labelSingular":"Besucher","labelPlural":"Besucher","selectedTaxonomy":"_gatherpress_play","metadata":{"name":"Past: Total Attendees"}} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:query {"queryId":5,"query":{"perPage":6,"pages":0,"offset":0,"postType":"gatherpress_event","order":"desc","orderBy":"date","inherit":false},"namespace":"gatherpress-event-query","metadata":{"name":"Upcoming Events"},"align":"wide","className":"gatherpress-event-query"} -->
+<!-- wp:query {"queryId":5,"query":{"perPage":6,"pages":0,"offset":0,"postType":"gatherpress_event","order":"asc","orderBy":"datetime","inherit":false},"namespace":"gatherpress-event-query","enhancedPagination":true,"metadata":{"name":"Upcoming Events"},"align":"wide","className":"gatherpress-event-query"} -->
 <div class="wp-block-query alignwide gatherpress-event-query"><!-- wp:post-template {"metadata":{"name":"Events Template"},"layout":{"type":"grid","columnCount":3}} -->
 <!-- wp:cover {"useFeaturedImage":true,"dimRatio":70,"overlayColor":"contrast","isUserOverlayColor":true,"minHeight":430,"minHeightUnit":"px","contentPosition":"center center","style":{"spacing":{"padding":{"right":"0","left":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"border":{"width":"1px"}},"textColor":"base","borderColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-cover has-border-color has-base-border-color has-base-color has-text-color has-link-color" style="border-width:1px;padding-right:0;padding-left:0;min-height:430px"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-70 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"css":"height:100%"},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between","justifyContent":"stretch"}} -->
 <div class="wp-block-group has-custom-css" style="min-height:100%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:gatherpress/event-date {"displayType":"start","isLink":true,"startDateFormat":"d. F 'y","showTimezone":"no","style":{"spacing":{"margin":{"right":"0","left":"0"},"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}}} /-->
+
+<!-- wp:gatherpress/event-date {"displayType":"start","isLink":true,"startDateFormat":"G:i \u005cU\u005ch\u005cr","showTimezone":"no","style":{"spacing":{"margin":{"right":"0","left":"0"},"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}}} /--></div>
+<!-- /wp:group -->
 
 <!-- wp:post-terms {"term":"gatherpress_topic","className":"is-style-post-terms-1","style":{"typography":{"textAlign":"right"},"spacing":{"margin":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}}} /--></div>
 <!-- /wp:group -->
@@ -1482,13 +1486,15 @@
 <!-- /wp:cover -->
 <!-- /wp:post-template -->
 
-<!-- wp:query-pagination {"align":"center","className":"gatherpress-query-pagination","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:query-pagination {"align":"center","className":"gatherpress-query-pagination","layout":{"type":"flex","justifyContent":"space-between"}} -->
 <!-- wp:query-pagination-previous {"label":"Previous Events","className":"gatherpress-query-pagination-previous"} /-->
 
 <!-- wp:query-pagination-numbers {"className":"gatherpress-query-pagination-numbers"} /-->
 
 <!-- wp:query-pagination-next {"label":"Next Events","className":"gatherpress-query-pagination-next"} /-->
-<!-- /wp:query-pagination -->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:group -->
 
 <!-- wp:query-no-results {"className":"gatherpress-query-no-results"} -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no events."} -->
@@ -1500,8 +1506,8 @@
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:29:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-19 17:59:57]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-19 15:59:57]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-19 20:26:24]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-19 18:26:24]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[startseite]]></wp:post_name>
@@ -1511,7 +1517,11 @@
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-														</item>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page-no-title]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
 		<link>https://jr26-experiments.test/2026/03/20/wp-global-styles-wuk-experiments/</link>
