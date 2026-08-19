@@ -78,6 +78,14 @@
 <!-- wp:gatherpress/venue-map /-->
 <!-- /wp:gatherpress/venue -->
 
+<!-- wp:gatherpress/online-event -->
+<div class="wp-block-gatherpress-online-event"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:icon {"icon":"core/capture-video","style":{"dimensions":{"width":"24px"}}} /-->
+
+<!-- wp:gatherpress/online-event-link {"linkText":"\u003cspan class=\u0022gatherpress-tooltip\u0022 data-gatherpress-tooltip=\u0022Link available for attendees only.\u0022\u003eOnline event\u003c/span\u003e"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:gatherpress/online-event -->
+
 <!-- wp:gatherpress/cast-crew-list {"showDepartmentHeadings":false,"columns":4,"className":"is-style-simple-list"} /--></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
