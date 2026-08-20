@@ -281,6 +281,16 @@
       "step": "installPlugin",
       "pluginData": {
           "resource": "url",
+          "url": "https://github.com/carstingaxion/contextual-query-loops/releases/latest/download/contextual-query-loops.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
           "url": "https://github.com/figuren-theater/theater-production-subsites/releases/latest/download/theater-production-subsites.zip"
       },
       "options": {
