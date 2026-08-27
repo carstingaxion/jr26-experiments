@@ -194,7 +194,7 @@
           "url": "https://github.com/carstingaxion/gatherpress-at-a-glance/releases/latest/download/gatherpress-at-a-glance.zip"
       },
       "options": {
-          "activate": false
+          "activate": true
       }
     },
     {
