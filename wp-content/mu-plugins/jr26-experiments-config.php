@@ -137,6 +137,26 @@ function jr26_experiments_theater_production_subsites_config() {
 }
 
 
+/************************************************************************************************************************** 
+ * 
+ * "GatherPress Statistics" plugin configuration
+ * 
+ * @see https://github.com/carstingaxion/gatherpress-statistics
+ * 
+ **************************************************************************************************************************/
+add_filter( 'gatherpress_statistics_context_post', 'jr26_experiments_gatherpress_statistics_context_post', 10, 3 );
+function jr26_experiments_gatherpress_statistics_context_post( $context, $post_id, $post_type ) {
+    if ( 'gatherpress_play_sub' === $post_type ) {
+        $parent_id = wp_get_post_parent_id( $post_id );
+        if ( $parent_id ) {
+            $context['post_id']   = $parent_id;
+            $context['post_type'] = get_post_type( $parent_id );
+        }
+    }
+    return $context;
+}
+
+
 
 /************************************************************************************************************************** 
  * 
