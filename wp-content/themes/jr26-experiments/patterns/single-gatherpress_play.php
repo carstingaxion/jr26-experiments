@@ -56,15 +56,7 @@
 
 <!-- wp:gatherpress/cast-crew-list {"showDepartmentHeadings":false,"columns":4,"className":"is-style-cards"} /-->
 
-<!-- wp:group {"layout":{"type":"grid"}} -->
-<div class="wp-block-group"><!-- wp:gatherpress/statistics {"statisticType":"events_per_taxonomy","labelSingular":"Spieltermin","labelPlural":"Spieltermine","selectedTaxonomy":"_gatherpress_play","useContextTerm":true,"metadata":{"name":"Past: Produktionen: current post’s term"}} /-->
-
-<!-- wp:gatherpress/statistics {"statisticType":"total_attendees","labelSingular":"Besucher","labelPlural":"Besucher","selectedTaxonomy":"_gatherpress_play","useContextTerm":true,"metadata":{"name":"Past: Total Attendees"}} /-->
-
-<!-- wp:gatherpress/statistics {"statisticType":"taxonomy_terms_by_taxonomy","labelSingular":"Festival","labelPlural":"Festivals","selectedTaxonomyTerms":[],"countTaxonomy":"gatherpress_festival","filterTaxonomy":"_gatherpress_play","prefixDefault":"auf","useContextTerm":true,"metadata":{"name":"Past: Festivals in Produktionen: current post’s term"}} /-->
-
-<!-- wp:gatherpress/statistics {"statisticType":"taxonomy_terms_by_taxonomy","labelSingular":"Auszeichnung","labelPlural":"Auszeichnungen","selectedTaxonomyTerms":[],"countTaxonomy":"gatherpress_award","filterTaxonomy":"_gatherpress_play","prefixDefault":"erst","prefixConditional":"schon","conditionalThreshold":2,"useContextTerm":true,"metadata":{"name":"Past: Auszeichnungen in Produktionen: current post’s term"}} /--></div>
-<!-- /wp:group --></div>
+<!-- wp:template-part {"slug":"produktions-statistiken"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:post-featured-image {"aspectRatio":"auto","align":"wide"} /--></div>
