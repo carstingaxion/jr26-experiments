@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1" created="2026-09-05 06:40" -->
+	<!-- generator="WordPress/7.1" created="2026-09-05 10:43" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>JR26 experiments</title>
 	<link>https://jr26-experiments.test</link>
 	<description>jr26 xp</description>
-	<pubDate>Sat, 05 Sep 2026 06:40:31 +0000</pubDate>
+	<pubDate>Sat, 05 Sep 2026 10:43:02 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://jr26-experiments.test</wp:base_site_url>
@@ -44,7 +44,7 @@
 		<wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name>
 	</wp:category>
 				<wp:term>
-		<wp:term_id>27</wp:term_id>
+		<wp:term_id>6</wp:term_id>
 		<wp:term_taxonomy><![CDATA[gatherpress_client]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[abc-gesellschaft]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -58,60 +58,74 @@
 		<wp:term_name><![CDATA[Abgesetzt]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>6</wp:term_id>
+		<wp:term_id>7</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_person]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_anja-schwede]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Anja Schwede]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>28</wp:term_id>
+		<wp:term_id>8</wp:term_id>
 		<wp:term_taxonomy><![CDATA[gatherpress_client]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[carsten]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Carsten]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>7</wp:term_id>
+		<wp:term_id>9</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_person]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_carsten-bach]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Carsten Bach]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>8</wp:term_id>
+		<wp:term_id>10</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_play]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_die-dicke-spielt-medea]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Die Dicke spielt Medea]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>9</wp:term_id>
+		<wp:term_id>30</wp:term_id>
+		<wp:term_taxonomy><![CDATA[gatherpress_award]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[faust]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[FAUST]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>11</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_venue]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_friesenstrasse-8]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[fiese8]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>10</wp:term_id>
+		<wp:term_id>12</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_group]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_julia-raab]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Figurentheater Julia Raab]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>11</wp:term_id>
+		<wp:term_id>13</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_play]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_heimatsehnen]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Heimatsehnen]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>12</wp:term_id>
+		<wp:term_id>14</wp:term_id>
 		<wp:term_taxonomy><![CDATA[gatherpress_topic]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[holiday]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[holiday]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>31</wp:term_id>
+		<wp:term_taxonomy><![CDATA[gatherpress_festival]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[homesweet]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[HomeSweet]]></wp:term_name>
 	</wp:term>
 		<wp:term>
 		<wp:term_id>3</wp:term_id>
@@ -121,7 +135,7 @@
 		<wp:term_name><![CDATA[In Proben]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>13</wp:term_id>
+		<wp:term_id>15</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_person]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_julia-raab]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -135,63 +149,63 @@
 		<wp:term_name><![CDATA[Laufend]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>14</wp:term_id>
+		<wp:term_id>16</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_play]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_nils-holgersson]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Nils Holgersson]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>15</wp:term_id>
+		<wp:term_id>17</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_play]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_oma]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Oma]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>16</wp:term_id>
+		<wp:term_id>18</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_group]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[online-event]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Online event]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>17</wp:term_id>
+		<wp:term_id>19</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_venue]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[online-event]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Online event]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>18</wp:term_id>
+		<wp:term_id>20</wp:term_id>
 		<wp:term_taxonomy><![CDATA[gatherpress_topic]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[puppetry]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[puppetry]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>19</wp:term_id>
+		<wp:term_id>21</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_group]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_schaustelle-halle]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Schaustelle Halle]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>20</wp:term_id>
+		<wp:term_id>22</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_person]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_simon-van-parys]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Simon van Parys]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>21</wp:term_id>
+		<wp:term_id>23</wp:term_id>
 		<wp:term_taxonomy><![CDATA[gatherpress_client]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[stiftung-abc]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Stiftung ABC]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>22</wp:term_id>
+		<wp:term_id>24</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_play]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_taschen]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -205,14 +219,21 @@
 		<wp:term_name><![CDATA[Vorproduktion]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>23</wp:term_id>
+		<wp:term_id>29</wp:term_id>
+		<wp:term_taxonomy><![CDATA[gatherpress_festival]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[world-puppetry-carnival]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[World Puppetry Carnival]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>25</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_venue]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_wuk]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[wuk]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>24</wp:term_id>
+		<wp:term_id>26</wp:term_id>
 		<wp:term_taxonomy><![CDATA[_gatherpress_person]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[_yves-paradis]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -340,8 +361,8 @@
 		<wp:post_id>20</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-08 10:25:18]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-07-08 08:25:18]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-07-08 10:25:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-07-08 08:25:18]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-09-05 12:39:45]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-05 10:39:45]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[party]]></wp:post_name>
@@ -354,6 +375,7 @@
 										<category domain="_gatherpress_venue" nicename="_friesenstrasse-8"><![CDATA[fiese8]]></category>
 		<category domain="_gatherpress_group" nicename="_julia-raab"><![CDATA[Figurentheater Julia Raab]]></category>
 		<category domain="gatherpress_topic" nicename="holiday"><![CDATA[holiday]]></category>
+		<category domain="gatherpress_festival" nicename="homesweet"><![CDATA[HomeSweet]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_gptc_colors_updated]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
@@ -417,6 +439,14 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_attendee_count]]></wp:meta_key>
 		<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 			<wp:meta_key><![CDATA[gatherpress_datetimes]]></wp:meta_key>
@@ -1029,8 +1059,8 @@
 		<wp:post_id>102</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-16 12:17:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-16 10:17:00]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-16 12:17:00]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-16 10:17:00]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-09-05 12:39:09]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-05 10:39:09]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[oma-friesenstrasse-8-2024]]></wp:post_name>
@@ -1042,12 +1072,14 @@
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="_gatherpress_person" nicename="_anja-schwede"><![CDATA[Anja Schwede]]></category>
 		<category domain="_gatherpress_person" nicename="_carsten-bach"><![CDATA[Carsten Bach]]></category>
+		<category domain="gatherpress_award" nicename="faust"><![CDATA[FAUST]]></category>
 		<category domain="_gatherpress_venue" nicename="_friesenstrasse-8"><![CDATA[fiese8]]></category>
 		<category domain="_gatherpress_group" nicename="_julia-raab"><![CDATA[Figurentheater Julia Raab]]></category>
 		<category domain="_gatherpress_person" nicename="_julia-raab"><![CDATA[Julia Raab]]></category>
 		<category domain="_gatherpress_play" nicename="_oma"><![CDATA[Oma]]></category>
 		<category domain="gatherpress_topic" nicename="puppetry"><![CDATA[puppetry]]></category>
 		<category domain="gatherpress_client" nicename="stiftung-abc"><![CDATA[Stiftung ABC]]></category>
+		<category domain="gatherpress_festival" nicename="world-puppetry-carnival"><![CDATA[World Puppetry Carnival]]></category>
 		<category domain="_gatherpress_person" nicename="_yves-paradis"><![CDATA[Yves Paradis]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_gptc_colors_updated]]></wp:meta_key>
@@ -1537,7 +1569,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/2026/03/20/navigation/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:excited-glamorous-school\/produktion","kind":"custom"} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:determined-old-school\/scope:excited-glamorous-school\/produktion","kind":"custom"} /-->
 
 <!-- wp:gatherpress/magic-menu {"showEventCount":true,"className":"is-style-badge"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1576,7 +1608,9 @@
 
 <!-- wp:gatherpress/statistics {"labelSingular":"Spieltermin","labelPlural":"Spieltermine bisher","metadata":{"name":"Past: Total Spieltermine bisher"}} /-->
 
-<!-- wp:gatherpress/statistics {"statisticType":"total_attendees","labelSingular":"Besucher","labelPlural":"Besucher","selectedTaxonomy":"_gatherpress_play","metadata":{"name":"Past: Total Attendees"}} /--></div>
+<!-- wp:gatherpress/statistics {"statisticType":"total_attendees","labelSingular":"Besucher","labelPlural":"Besucher","selectedTaxonomy":"_gatherpress_play","metadata":{"name":"Past: Total Attendees"}} /-->
+
+<!-- wp:gatherpress/statistics {"statisticType":"total_taxonomy_terms","labelSingular":"Festival","labelPlural":"Festivals","selectedTaxonomyTerms":[],"selectedTaxonomy":"gatherpress_festival","metadata":{"name":"Past: Total Festivals"}} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:query {"queryId":5,"query":{"perPage":6,"pages":0,"offset":0,"postType":"gatherpress_event","order":"asc","orderBy":"datetime","inherit":false,"excludeCurrent":null},"namespace":"gatherpress-event-query","enhancedPagination":true,"metadata":{"name":"Upcoming Events"},"align":"wide","className":"gatherpress-event-query"} -->
@@ -1640,8 +1674,8 @@
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:29:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-05 08:35:25]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-05 06:35:25]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-09-05 12:41:41]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-05 10:41:41]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[startseite]]></wp:post_name>
@@ -1784,7 +1818,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_static_map]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:18:"16x600x300xroadmap";a:6:{s:3:"url";s:179:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300.png";s:6:"url_2x";s:182:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300@2x.png";s:4:"hash";s:32:"9637933afd169d4805f48a5fea77fc07";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:18:"16x600x300xroadmap";a:6:{s:3:"url";s:176:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300.png";s:6:"url_2x";s:179:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300@2x.png";s:4:"hash";s:32:"9637933afd169d4805f48a5fea77fc07";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1812,6 +1846,14 @@
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -2046,6 +2088,14 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
@@ -2059,8 +2109,8 @@
 		<wp:post_id>76</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-15 11:32:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-15 09:32:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-05 08:40:10]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-05 06:40:10]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-09-05 12:41:45]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-05 10:41:45]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-jr26-experiments]]></wp:post_name>
@@ -2103,15 +2153,15 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://jr26-experiments.test/?p=109</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:excited-glamorous-school\/produktion","kind":"custom"} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:determined-old-school\/scope:excited-glamorous-school\/produktion","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"People","url":"\/scope:excited-glamorous-school\/person","kind":"custom"} /-->
+<!-- wp:navigation-link {"label":"People","url":"\/scope:determined-old-school\/scope:excited-glamorous-school\/person","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"Gruppen","type":"page","url":"\/scope:excited-glamorous-school\/groups","kind":"post-type"} /-->
+<!-- wp:navigation-link {"label":"Gruppen","type":"page","url":"\/scope:determined-old-school\/scope:excited-glamorous-school\/groups","kind":"post-type"} /-->
 
-<!-- wp:navigation-link {"label":"Blog","url":"\/scope:excited-glamorous-school\/","kind":"custom"} /-->
+<!-- wp:navigation-link {"label":"Blog","url":"\/scope:determined-old-school\/scope:excited-glamorous-school\/","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"FAQs","url":"\/scope:excited-glamorous-school\/","kind":"custom"} /-->]]></content:encoded>
+<!-- wp:navigation-link {"label":"FAQs","url":"\/scope:determined-old-school\/scope:excited-glamorous-school\/","kind":"custom"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>109</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-16 15:11:39]]></wp:post_date>
@@ -2202,7 +2252,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://jr26-experiments.test/2026/08/19/navigation-kopie/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:excited-glamorous-school\/produktion","kind":"custom"} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:determined-old-school\/scope:excited-glamorous-school\/produktion","kind":"custom"} /-->
 
 <!-- wp:gatherpress/magic-menu {"showEventCount":true,"className":"is-style-badge"} /-->
 

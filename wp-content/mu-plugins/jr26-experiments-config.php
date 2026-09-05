@@ -155,8 +155,17 @@ function jr26_experiments_gatherpress_statistics_context_post( $context, $post_i
     }
     return $context;
 }
-
-
+add_filter( 'gatherpress_statistics_support_config', function ( array $config ): array {
+    // Disable the more expensive cross-taxonomy statistics.
+    $config['events_multi_taxonomy']      = true;
+    $config['total_taxonomy_terms']       = true;
+    $config['taxonomy_terms_by_taxonomy'] = true;
+    return $config;
+} );
+// Cache for 48 hours instead of the 12-hour default.
+add_filter( 'gatherpress_statistics_cache_expiration', function ( int $expiration ): int {
+    return 48 * HOUR_IN_SECONDS;
+} );
 
 /************************************************************************************************************************** 
  * 
