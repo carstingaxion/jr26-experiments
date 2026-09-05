@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1" created="2026-09-05 10:43" -->
+	<!-- generator="WordPress/7.1" created="2026-09-05 11:00" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>JR26 experiments</title>
 	<link>https://jr26-experiments.test</link>
 	<description>jr26 xp</description>
-	<pubDate>Sat, 05 Sep 2026 10:43:02 +0000</pubDate>
+	<pubDate>Sat, 05 Sep 2026 11:00:57 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://jr26-experiments.test</wp:base_site_url>
@@ -1608,9 +1608,13 @@
 
 <!-- wp:gatherpress/statistics {"labelSingular":"Spieltermin","labelPlural":"Spieltermine bisher","metadata":{"name":"Past: Total Spieltermine bisher"}} /-->
 
-<!-- wp:gatherpress/statistics {"statisticType":"total_attendees","labelSingular":"Besucher","labelPlural":"Besucher","selectedTaxonomy":"_gatherpress_play","metadata":{"name":"Past: Total Attendees"}} /-->
+<!-- wp:gatherpress/statistics {"statisticType":"total_attendees","labelSingular":"Besucher insgesamt","labelPlural":"Besucher insgesamt","selectedTaxonomy":"_gatherpress_play","metadata":{"name":"Past: Total Attendees"}} /-->
 
-<!-- wp:gatherpress/statistics {"statisticType":"total_taxonomy_terms","labelSingular":"Festival","labelPlural":"Festivals","selectedTaxonomyTerms":[],"selectedTaxonomy":"gatherpress_festival","metadata":{"name":"Past: Total Festivals"}} /--></div>
+<!-- wp:gatherpress/statistics {"statisticType":"total_taxonomy_terms","labelSingular":"Festival besucht","labelPlural":"Festivals besucht","selectedTaxonomy":"gatherpress_festival","metadata":{"name":"Past: Total Festivals"}} /-->
+
+<!-- wp:gatherpress/statistics {"labelSingular":"Produktion geschaffen","labelPlural":"Produktionen geschaffen","selectedTaxonomyTerms":[],"metadata":{"name":"Past: Total Produktionen geschaffen"}} /-->
+
+<!-- wp:gatherpress/statistics {"statisticType":"total_taxonomy_terms","labelSingular":"Spielort bisher","labelPlural":"Spielorte bisher","selectedTaxonomy":"_gatherpress_venue","metadata":{"name":"Past: Total Venues"}} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:query {"queryId":5,"query":{"perPage":6,"pages":0,"offset":0,"postType":"gatherpress_event","order":"asc","orderBy":"datetime","inherit":false,"excludeCurrent":null},"namespace":"gatherpress-event-query","enhancedPagination":true,"metadata":{"name":"Upcoming Events"},"align":"wide","className":"gatherpress-event-query"} -->
@@ -1674,8 +1678,8 @@
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:29:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-05 12:41:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-05 10:41:41]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-09-05 13:00:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-05 11:00:20]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[startseite]]></wp:post_name>
@@ -2109,8 +2113,8 @@
 		<wp:post_id>76</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-15 11:32:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-15 09:32:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-05 12:41:45]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-05 10:41:45]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-09-05 13:00:46]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-05 11:00:46]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-jr26-experiments]]></wp:post_name>

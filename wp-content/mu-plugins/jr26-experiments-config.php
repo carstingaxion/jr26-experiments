@@ -162,6 +162,14 @@ add_filter( 'gatherpress_statistics_support_config', function ( array $config ):
     $config['taxonomy_terms_by_taxonomy'] = true;
     return $config;
 } );
+add_post_type_support( 'gatherpress_play', 'gatherpress_statistics', array(
+    'total_events'               => true,
+    'events_per_taxonomy'        => false,
+    'events_multi_taxonomy'      => false,
+    'total_taxonomy_terms'       => false,
+    'taxonomy_terms_by_taxonomy' => false,
+    'total_attendees'            => false,
+) );
 // Cache for 48 hours instead of the 12-hour default.
 add_filter( 'gatherpress_statistics_cache_expiration', function ( int $expiration ): int {
     return 48 * HOUR_IN_SECONDS;
