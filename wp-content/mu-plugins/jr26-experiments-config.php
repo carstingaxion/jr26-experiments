@@ -245,11 +245,11 @@ function jr26_experiments_breadcrumbs_singular_events_of_plays( array $crumbs ):
     $event_archive_url = get_post_type_archive_link( 'gatherpress_event' );
 
     foreach ( $crumbs as $index => &$crumb ) {
-      // Identify the PT archive crumb by its URL.
+        // Identify the PT archive crumb by its URL.
         if ( isset( $crumb['url'] ) && untrailingslashit( $crumb['url'] ) === untrailingslashit( $event_archive_url ) ) {
             // Replace with a different archive, e.g. a custom CPT or taxonomy archive.
             $replacement_archive = get_post_type_archive_link( 'gatherpress_play' );
-            $replacement_label   = post_type_archive_title( '', false ) ?: get_post_type_object( 'gatherpress_event' )->labels->name;
+            $replacement_label   = post_type_archive_title( '', false ) ?: get_post_type_object( 'gatherpress_play' )->labels->name;
 
             // Or point to the taxonomy archive instead:
             // $term                = $special_terms[0];
@@ -258,7 +258,11 @@ function jr26_experiments_breadcrumbs_singular_events_of_plays( array $crumbs ):
 
             $crumb['url']   = $replacement_archive;
             $crumb['label'] = $replacement_label;
-            break;
+            // break;
+        // Identify the Production, which is provided as the should-non-public hidden shadow-tax.
+        } elseif ( isset( $crumb['url'] ) && str_contains( $crumb['url'], '_gatherpress_play=_' ) ) {
+            $production_slug = explode( '=_', $crumb['url'] )[1];
+            $crumb['url']    = get_permalink( get_page_by_path( $production_slug, OBJECT, 'gatherpress_play' ) );
         }
 
     }
