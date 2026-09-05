@@ -8,7 +8,15 @@
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
 <!-- wp:group {"tagName":"main","align":"wide","layout":{"type":"constrained"}} -->
-<main class="wp-block-group alignwide"><!-- wp:group {"align":"wide","layout":{"type":"grid","columnCount":6}} -->
+<main class="wp-block-group alignwide"><!-- wp:group {"align":"wide","layout":{"type":"grid"}} -->
+<div class="wp-block-group alignwide"><!-- wp:gatherpress/statistics {"statisticType":"events_per_taxonomy","labelSingular":"Spieltermin","labelPlural":"Spieltermine geplant","selectedTaxonomyTerms":[],"selectedTaxonomy":"_gatherpress_venue","eventQuery":"upcoming","suffixDefault":"+","useContextTerm":true,"metadata":{"name":"Upcoming: Venues: current post’s term"}} /-->
+
+<!-- wp:gatherpress/statistics {"statisticType":"events_per_taxonomy","labelSingular":"Spieltermin","labelPlural":"Spieltermine bisher","selectedTaxonomyTerms":[],"selectedTaxonomy":"_gatherpress_venue","useContextTerm":true,"metadata":{"name":"Past: Venues: current post’s term"}} /-->
+
+<!-- wp:gatherpress/statistics {"statisticType":"total_attendees","labelSingular":"Besucher waren hier","labelPlural":"Besucher waren hier","selectedTaxonomy":"_gatherpress_venue","useContextTerm":true,"metadata":{"name":"Past: Total Attendees"}} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","layout":{"type":"grid","columnCount":6}} -->
 <div class="wp-block-group alignwide"><!-- wp:post-content {"style":{"layout":{"columnSpan":4,"rowSpan":1}}} /-->
 
 <!-- wp:post-title {"style":{"layout":{"columnSpan":2,"rowSpan":1}}} /--></div>
@@ -43,7 +51,7 @@
 <!-- /wp:gatherpress/venue -->
 
 <!-- wp:group {"metadata":{"categories":["posts"],"patternName":"jr26-experiments/more-posts","name":"More posts"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:query {"queryId":17,"query":{"perPage":4,"pages":0,"offset":0,"postType":"gatherpress_event","order":"asc","orderBy":"datetime","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[],"gatherpress_event_query":"upcoming","include_unfinished":1,"shadow_filter":1,"gatherpress_shadow_source_post_id":"jr26-experiments//single-gatherpress_venue","gatherpress_shadow_source_post_type":"gatherpress_venue"},"namespace":"gatherpress-event-query","metadata":{"name":"Upcoming Events"},"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:query {"queryId":17,"query":{"perPage":4,"pages":0,"offset":0,"postType":"gatherpress_event","order":"asc","orderBy":"datetime","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[],"gatherpress_event_query":"upcoming","include_unfinished":1,"shadow_filter":1,"gatherpress_shadow_source_post_id":"jr26-experiments//single-gatherpress_venue","gatherpress_shadow_source_post_type":"gatherpress_venue","excludeCurrent":null},"namespace":"gatherpress-event-query","metadata":{"name":"Upcoming Events"},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-query alignwide"><!-- wp:heading {"align":"wide","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700","letterSpacing":"1.4px"}},"fontSize":"small"} -->
 <h2 class="wp-block-heading alignwide has-small-font-size" style="font-style:normal;font-weight:700;letter-spacing:1.4px;text-transform:uppercase"><?php esc_html_e('Termine hier', 'jr26-experiments');?></h2>
 <!-- /wp:heading -->

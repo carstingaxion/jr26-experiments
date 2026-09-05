@@ -57,9 +57,9 @@
 <!-- wp:gatherpress/cast-crew-list {"showDepartmentHeadings":false,"columns":4,"className":"is-style-cards"} /-->
 
 <!-- wp:group {"layout":{"type":"grid"}} -->
-<div class="wp-block-group"><!-- wp:gatherpress/statistics {"labelSingular":"Spieltermin","labelPlural":"Spieltermine","selectedTaxonomyTerms":[],"metadata":{"name":"Past: Total Spieltermine"}} /-->
+<div class="wp-block-group"><!-- wp:gatherpress/statistics {"statisticType":"events_per_taxonomy","labelSingular":"Spieltermin","labelPlural":"Spieltermine","selectedTaxonomyTerms":[],"selectedTaxonomy":"_gatherpress_play","useContextTerm":true,"metadata":{"name":"Past: Produktionen: current post’s term"}} /-->
 
-<!-- wp:gatherpress/statistics {"statisticType":"total_attendees","labelSingular":"Besucher","labelPlural":"Besucher","selectedTaxonomy":"_gatherpress_play","metadata":{"name":"Past: Total Attendees"}} /--></div>
+<!-- wp:gatherpress/statistics {"statisticType":"total_attendees","labelSingular":"Besucher","labelPlural":"Besucher","selectedTaxonomy":"_gatherpress_play","useContextTerm":true,"metadata":{"name":"Past: Total Attendees"}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
@@ -72,7 +72,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"33.33%"} -->
-<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:query {"queryId":13,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_event_query":"upcoming","include_unfinished":1,"order":"asc","orderBy":"datetime","inherit":false,"shadow_filter":1,"gatherpress_shadow_source_post_id":"jr26-experiments//single-gatherpress_play","gatherpress_shadow_source_post_type":"gatherpress_play"},"namespace":"gatherpress-event-query","enhancedPagination":true,"metadata":{"name":"Upcoming Events"},"className":"gatherpress-event-query"} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:query {"queryId":13,"query":{"perPage":5,"pages":0,"offset":0,"postType":"gatherpress_event","gatherpress_event_query":"upcoming","include_unfinished":1,"order":"asc","orderBy":"datetime","inherit":false,"shadow_filter":1,"gatherpress_shadow_source_post_id":"jr26-experiments//single-gatherpress_play","gatherpress_shadow_source_post_type":"gatherpress_play","excludeCurrent":null},"namespace":"gatherpress-event-query","enhancedPagination":true,"metadata":{"name":"Upcoming Events"},"className":"gatherpress-event-query"} -->
 <div class="wp-block-query gatherpress-event-query"><!-- wp:post-template {"metadata":{"name":"Events Template"}} -->
 <!-- wp:gatherpress/event-date {"isLink":true,"showTimezone":"no"} /-->
 

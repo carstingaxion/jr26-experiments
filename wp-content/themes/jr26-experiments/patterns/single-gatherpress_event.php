@@ -9,7 +9,7 @@
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:group {"align":"wide","layout":{"type":"grid"}} -->
-<div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"top"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"style":{"layout":{"columnSpan":2,"rowSpan":1}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:gatherpress/event-date {"displayType":"start","startDateFormat":"d.","showTimezone":"no","fontSize":"xx-large"} /-->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
@@ -19,11 +19,11 @@
 <!-- wp:gatherpress/event-date {"displayType":"start","startDateFormat":"Y","showTimezone":"no"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:gatherpress/event-date {"displayType":"start","startDateFormat":"G:i \u005cU\u005ch\u005cr","showTimezone":"no"} /--></div>
+<!-- wp:gatherpress/event-date {"displayType":"start","startDateFormat":"l, G:i \u005cU\u005ch\u005cr","showTimezone":"no"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:post-title {"level":1,"style":{"layout":{"columnSpan":3,"rowSpan":1}}} /-->
+<!-- wp:post-title {"level":1,"style":{"layout":{"columnSpan":2,"rowSpan":1}}} /-->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
@@ -53,7 +53,7 @@
 
 <!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:gatherpress/venue {"patternPicked":true} -->
-<!-- wp:post-title {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}}} /-->
+<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}}} /-->
 
 <!-- wp:group {"className":"gatherpress\u002d\u002dhas-venue-address","style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group gatherpress--has-venue-address" style="margin-top:0;margin-bottom:0"><!-- wp:icon {"icon":"core/map-marker","style":{"dimensions":{"width":"24px"}}} /-->
