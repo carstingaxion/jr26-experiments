@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1" created="2026-09-05 13:19" -->
+	<!-- generator="WordPress/7.1" created="2026-09-06 14:27" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>JR26 experiments</title>
 	<link>https://jr26-experiments.test</link>
 	<description>jr26 xp</description>
-	<pubDate>Sat, 05 Sep 2026 13:19:58 +0000</pubDate>
+	<pubDate>Sun, 06 Sep 2026 14:27:27 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://jr26-experiments.test</wp:base_site_url>
@@ -1569,17 +1569,17 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/2026/03/20/navigation/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"/produktion","kind":"custom"} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:curious-modern-village\/produktion","kind":"custom"} /-->
 
 <!-- wp:gatherpress/magic-menu {"showEventCount":true,"className":"is-style-badge"} /-->
 
-<!-- wp:navigation-link {"label":"Referenzen","type":"custom","url":"/referenzen","kind":"custom"} /-->]]></content:encoded>
+<!-- wp:navigation-link {"label":"Referenzen","type":"custom","url":"\/scope:curious-modern-village\/referenzen","kind":"custom"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>4</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:20:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-20 16:20:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-05 14:56:14]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-05 12:56:14]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-20 17:20:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-20 16:20:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[navigation]]></wp:post_name>
@@ -1680,8 +1680,8 @@
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:29:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-05 15:17:50]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-05 13:17:50]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-20 17:29:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[startseite]]></wp:post_name>
@@ -1782,7 +1782,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_static_map]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:18:"16x600x300xroadmap";a:6:{s:3:"url";s:182:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/8-friesenstrasse-halle-saale-sachsen-anhalt-06112-osm-roadmap-16-600-300.png";s:6:"url_2x";s:185:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/8-friesenstrasse-halle-saale-sachsen-anhalt-06112-osm-roadmap-16-600-300@2x.png";s:4:"hash";s:32:"90c89870009e56065101a38826c31439";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1824,7 +1824,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[gatherpress_static_map]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:3:"osm";a:1:{s:18:"16x600x300xroadmap";a:6:{s:3:"url";s:178:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300.png";s:6:"url_2x";s:181:"https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/uploads/gatherpress/static-maps/7a-holzplatz-halle-saale-sachsen-anhalt-06110-osm-roadmap-16-600-300@2x.png";s:4:"hash";s:32:"9637933afd169d4805f48a5fea77fc07";s:4:"zoom";i:16;s:5:"width";i:600;s:6:"height";i:300;}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1852,6 +1852,14 @@
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -2118,6 +2126,14 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
@@ -2131,8 +2147,8 @@
 		<wp:post_id>76</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-15 11:32:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-15 09:32:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-05 15:19:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-05 13:19:12]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-15 11:32:34]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-15 09:32:34]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-jr26-experiments]]></wp:post_name>
@@ -2156,8 +2172,8 @@
 		<wp:post_id>100</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-16 12:13:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-16 10:13:00]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-05 14:44:54]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-05 12:44:54]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-16 12:13:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-16 10:13:00]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[referenzen]]></wp:post_name>
@@ -2175,21 +2191,21 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://jr26-experiments.test/?p=109</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"/produktion","kind":"custom"} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:curious-modern-village\/produktion","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"People","type":"link","url":"/person","kind":"custom"} /-->
+<!-- wp:navigation-link {"label":"People","type":"link","url":"\/scope:curious-modern-village\/person","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"Gruppen","type":"page","url":"/group","kind":"post-type"} /-->
+<!-- wp:navigation-link {"label":"Gruppen","type":"page","url":"\/scope:curious-modern-village\/group","kind":"post-type"} /-->
 
-<!-- wp:navigation-link {"label":"Blog","type":"link","url":"/blog","kind":"custom"} /-->
+<!-- wp:navigation-link {"label":"Blog","type":"link","url":"\/scope:curious-modern-village\/blog","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"FAQs","url":"#","kind":"custom"} /-->]]></content:encoded>
+<!-- wp:navigation-link {"label":"FAQs","url":"\/scope:curious-modern-village\/","kind":"custom"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>109</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-16 15:11:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-16 13:11:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-05 14:53:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-05 12:53:17]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-08-16 15:11:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-16 13:11:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[menue]]></wp:post_name>
@@ -2274,7 +2290,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://jr26-experiments.test/2026/08/19/navigation-kopie/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:determined-old-school-2\/scope:determined-old-school\/scope:excited-glamorous-school\/produktion","kind":"custom"} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:curious-modern-village\/scope:determined-old-school-2\/scope:determined-old-school\/scope:excited-glamorous-school\/produktion","kind":"custom"} /-->
 
 <!-- wp:gatherpress/magic-menu {"showEventCount":true,"className":"is-style-badge"} /-->
 
@@ -2320,6 +2336,96 @@
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Some news about OMA]]></title>
+		<link>https://jr26-experiments.test/2026/09/06/some-news-about-oma/</link>
+		<pubDate>Sun, 06 Sep 2026 14:17:53 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://jr26-experiments.test/?p=143</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-terms {"term":"_gatherpress_play","prefix":"News über "} /-->
+
+<!-- wp:paragraph -->
+<p>in der Zeitung ...</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>143</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-06 16:17:53]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-06 14:17:53]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-06 16:18:25]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-06 14:18:25]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[some-news-about-oma]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="_gatherpress_play" nicename="_oma"><![CDATA[Oma]]></category>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[News]]></title>
+		<link>https://jr26-experiments.test/produktion/oma/news/</link>
+		<pubDate>Sun, 06 Sep 2026 14:23:12 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://jr26-experiments.test/?post_type=produktion&#038;p=147</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":{"include":{"_gatherpress_play":[19]}},"parents":[],"format":["image","standard"],"excludeCurrent":null},"enhancedPagination":true} -->
+<div class="wp-block-query"><!-- wp:post-template -->
+<!-- wp:post-title /-->
+
+<!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}}} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"placeholder":"Füge Text oder Blöcke hinzu, die angezeigt werden, wenn eine Abfrage keine Ergebnisse ausgibt."} -->
+<p></p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>147</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-06 16:23:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-06 14:23:12]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-06 16:23:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-06 14:23:12]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[news]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>36</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[gatherpress_play_sub]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>

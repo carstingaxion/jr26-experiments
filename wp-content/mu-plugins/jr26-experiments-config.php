@@ -77,7 +77,7 @@ function jr26_experiments_register_productions_with_posts() {
 	register_taxonomy_for_object_type( '_gatherpress_play', 'post' );
 }
 
-add_action( 'init', 'jr26_experiments_register_productions_with_posts', 11 ); // Use 11, to make sure the tax is already registered.
+add_action( 'init', 'jr26_experiments_register_productions_with_posts', 21 ); // Use 11, to make sure the tax is already registered.
 
 
 /************************************************************************************************************************** 
