@@ -55,9 +55,6 @@ function jr26_experiments_register_post_type_args( array $args ) : array {
  * @see https://github.com/carstingaxion/gatherpress-productions
  * 
  **************************************************************************************************************************/
-
-
-
 // /**
 // * Filters the labels of a specific post type.
 // *
@@ -71,7 +68,16 @@ function jr26_experiments_register_post_type_args( array $args ) : array {
 // return $labels;
 // } );
 
+/**
+ * Register Productions (gatherpress_play) with Posts.
+ *
+ * @return void
+ */
+function jr26_experiments_register_productions_with_posts() {
+	register_taxonomy_for_object_type( '_gatherpress_play', 'post' );
+}
 
+add_action( 'init', 'jr26_experiments_register_productions_with_posts', 11 ); // Use 11, to make sure the tax is already registered.
 
 
 /************************************************************************************************************************** 
