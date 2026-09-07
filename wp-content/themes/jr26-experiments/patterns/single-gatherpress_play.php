@@ -96,7 +96,9 @@
 <p></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
-<!-- /wp:query --></div>
+<!-- /wp:query -->
+
+<!-- wp:page-list {"className":"wpt-subsites-page-list"} /--></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
