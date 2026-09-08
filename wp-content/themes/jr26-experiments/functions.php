@@ -196,35 +196,30 @@ add_filter( 'render_block_data', 'jr26_experiments_render_template_part_data' );
  */
 function jr26_experiments_render_template_part_data( array $parsed_block ): array 
 {
-	// Only target the Template Part block with a `sidebar-post` slug and
+	// Only target the Template Part block with a `query-post-template-standard` slug and
 	// when viewing a single post.
 	if (
 		( $parsed_block['blockName'] ?? '' ) !== 'core/template-part'
 		|| ( $parsed_block['attrs']['slug'] ?? '' ) !== 'query-post-template-standard'
-		|| ! is_singular( 'post' )
 	) {
 		return $parsed_block;
 	}
-error_log('$parsed_block: ' . var_export($parsed_block, true));
-	$post = get_queried_object();
 
+    // $post = get_queried_object(); // returns the post holding the core/query, not the queried posts
+    global $post; // is the currently queried post ;)
 	if ( ! $post instanceof WP_Post ) {
 		return $parsed_block;
 	}
-error_log('$post: ' . var_export($post, true));
 
 	// Get the directory where template parts live.
 	$parts_dir = get_block_theme_folders()['wp_template_part'];
 
-	// Loop through the post's formats and look for a matching template part.
-	foreach ( get_the_terms( $post->ID, 'post_format' ) as $format ) {
-		$slug = "query-post-template-{$format->slug}";
-error_log('$slug: ' . var_export($slug, true));
-		if ( locate_template( "{$parts_dir}/{$slug}.html" ) ) {
-			$parsed_block['attrs']['slug'] = $slug;
-			return $parsed_block;
-		}
-	}
+	$format = get_post_format( $post ) ? : 'standard';
+	$slug   = "query-post-template-{$format}";
+    if ( locate_template( "{$parts_dir}/{$slug}.html" ) ) {
+        $parsed_block['attrs']['slug'] = $slug;
+        return $parsed_block;
+    }
 
 	// No format-specific part found; return the original unchanged.
 	return $parsed_block;
