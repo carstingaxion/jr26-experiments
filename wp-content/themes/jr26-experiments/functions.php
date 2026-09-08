@@ -185,8 +185,47 @@ function jr26_experiments_parent_title_binding($args, $instance) {
     return null;
 }
 
-add_filter( 'render_block_data', 'jr26_experiments_render_template_part_data' );
+add_filter( 'render_block_data', 'jr26_experiments_render_gatherpress_venue_data' );
+/**
+ * Swap the "gatherpress/venue" block's postId attribute to the parent post ID when viewing a gatherpress_play_sub post.
+ *
+ * @param  array $parsed_block
+ *
+ * @return array
+ */
+function jr26_experiments_render_gatherpress_venue_data( array $parsed_block ): array 
+{
+	// Only target the gatherpress/venue block with no postid-override set and
+	// when viewing a _sub-posttype.
+	if (
+		( $parsed_block['blockName'] ?? '' ) !== 'gatherpress/venue'
+		|| ( $parsed_block['attrs']['sourcePostType'] ?? '' ) !== 'gatherpress_play'
+		|| isset( $parsed_block['attrs']['postId'] )
+		|| ! is_singular( 'gatherpress_play_sub' )
+	) {
+		return $parsed_block;
+	}
 
+    $post = get_queried_object(); // returns the post holding the core/query, not the queried posts
+    // global $post; // is the currently queried post ;)
+	if ( ! $post instanceof WP_Post ) {
+		return $parsed_block;
+	}
+
+	$parent = get_post_parent($post->ID);
+	if ( ! $parent instanceof WP_Post ) {
+		return $parsed_block;
+	}
+
+	// Set the postId attribute to the parent post ID.
+	$parsed_block['attrs']['postId'] = $parent->ID;
+
+	// Everything prepared, return the modified block data.
+	return $parsed_block;
+}
+
+
+add_filter( 'render_block_data', 'jr26_experiments_render_template_part_data' );
 /**
  * Swap the "Post template" template parts based on the post format taxonomy.
  *
