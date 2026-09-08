@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1" created="2026-09-07 12:45" -->
+	<!-- generator="WordPress/7.1" created="2026-09-08 08:03" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>JR26 experiments</title>
 	<link>https://jr26-experiments.test</link>
 	<description>jr26 xp</description>
-	<pubDate>Mon, 07 Sep 2026 12:45:53 +0000</pubDate>
+	<pubDate>Tue, 08 Sep 2026 08:03:39 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://jr26-experiments.test</wp:base_site_url>
@@ -1680,8 +1680,8 @@
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:29:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-20 16:29:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-07 14:44:36]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-07 12:44:36]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-09-08 09:18:46]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-08 07:18:46]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[startseite]]></wp:post_name>
@@ -2163,8 +2163,8 @@
 		<wp:post_id>76</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-15 11:32:34]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-08-15 09:32:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-07 14:44:42]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-07 12:44:42]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-09-08 09:20:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-08 07:20:48]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-jr26-experiments]]></wp:post_name>
@@ -2414,9 +2414,7 @@
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":{"include":{"_gatherpress_play":[19]}},"parents":[],"format":["image","standard"],"excludeCurrent":null},"enhancedPagination":true} -->
 <div class="wp-block-query"><!-- wp:post-template -->
-<!-- wp:post-title /-->
-
-<!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}}} /-->
+<!-- wp:template-part {"slug":"query-post-template-standard"} /-->
 <!-- /wp:post-template -->
 
 <!-- wp:query-pagination -->
@@ -2441,8 +2439,8 @@
 		<wp:post_id>147</wp:post_id>
 		<wp:post_date><![CDATA[2026-09-06 16:23:12]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-09-06 14:23:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-06 16:23:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-06 14:23:12]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-09-08 09:37:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-08 07:37:03]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[news]]></wp:post_name>
@@ -2453,6 +2451,45 @@
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
+					<item>
+		<title><![CDATA[Bild-News of Grandma]]></title>
+		<link>https://jr26-experiments.test/2026/09/08/bild-news-of-grandma/</link>
+		<pubDate>Tue, 08 Sep 2026 07:31:50 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://jr26-experiments.test/?p=171</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-featured-image /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>171</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-08 09:31:50]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-08 07:31:50]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-08 09:31:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-08 07:31:50]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[bild-news-of-grandma]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="_gatherpress_play" nicename="_oma"><![CDATA[Oma]]></category>
+		<category domain="post_format" nicename="post-format-image"><![CDATA[Bild]]></category>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[58]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
 				</channel>
 </rss>
 	

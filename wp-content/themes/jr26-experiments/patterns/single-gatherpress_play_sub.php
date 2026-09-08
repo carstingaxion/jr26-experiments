@@ -9,8 +9,8 @@
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide"><!-- wp:column {"width":"75%"} -->
-<div class="wp-block-column" style="flex-basis:75%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"65%"} -->
+<div class="wp-block-column" style="flex-basis:65%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--60)"><!-- wp:post-title {"level":1} /-->
 
 <!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"jr26-experiments/parent-title"}}}} -->
@@ -33,12 +33,12 @@
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"25%"} -->
-<div class="wp-block-column" style="flex-basis:25%"><!-- wp:page-list {"className":"wpt-subsites-page-list"} /--></div>
+<!-- wp:column {"width":"35%"} -->
+<div class="wp-block-column" style="flex-basis:35%"><!-- wp:page-list {"className":"wpt-subsites-page-list"} /-->
+
+<!-- wp:template-part {"slug":"produktions-statistiken"} /--></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></main>
 <!-- /wp:group -->
-
-<!-- wp:template-part {"slug":"produktions-statistiken"} /-->
 
 <!-- wp:template-part {"slug":"footer"} /-->

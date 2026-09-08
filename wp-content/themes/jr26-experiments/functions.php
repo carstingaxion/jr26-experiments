@@ -184,3 +184,43 @@ function jr26_experiments_parent_title_binding($args, $instance) {
 
     return null;
 }
+
+add_filter( 'render_block_data', 'jr26_experiments_render_template_part_data' );
+
+/**
+ * Swap the "Post template" template parts based on the post format taxonomy.
+ *
+ * @param  array $parsed_block
+ *
+ * @return array
+ */
+function jr26_experiments_render_template_part_data( array $parsed_block ): array 
+{
+	// Only target the Template Part block with a `query-post-template-standard` slug and
+	// when viewing a single post.
+	if (
+		( $parsed_block['blockName'] ?? '' ) !== 'core/template-part'
+		|| ( $parsed_block['attrs']['slug'] ?? '' ) !== 'query-post-template-standard'
+	) {
+		return $parsed_block;
+	}
+
+    // $post = get_queried_object(); // returns the post holding the core/query, not the queried posts
+    global $post; // is the currently queried post ;)
+	if ( ! $post instanceof WP_Post ) {
+		return $parsed_block;
+	}
+
+	// Get the directory where template parts live.
+	$parts_dir = get_block_theme_folders()['wp_template_part'];
+
+	$format = get_post_format( $post ) ? : 'standard';
+	$slug   = "query-post-template-{$format}";
+    if ( locate_template( "{$parts_dir}/{$slug}.html" ) ) {
+        $parsed_block['attrs']['slug'] = $slug;
+        return $parsed_block;
+    }
+
+	// No format-specific part found; return the original unchanged.
+	return $parsed_block;
+}
