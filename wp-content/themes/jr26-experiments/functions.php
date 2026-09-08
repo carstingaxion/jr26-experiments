@@ -200,10 +200,17 @@ function jr26_experiments_render_template_part_data( array $parsed_block ): arra
 	// when viewing a single post.
 	if (
 		( $parsed_block['blockName'] ?? '' ) !== 'core/template-part'
-		|| ( $parsed_block['attrs']['slug'] ?? '' ) !== 'query-post-template-standard'
+		// || ( $parsed_block['attrs']['slug'] ?? '' ) !== 'query-post-template-standard'
+		|| (
+			( $parsed_block['attrs']['slug'] ?? '' ) !== 'query-post-template-standard'
+			&&
+			( $parsed_block['attrs']['slug'] ?? '' ) !== 'singular-post-content-standard'
+		)
 	) {
 		return $parsed_block;
 	}
+	// Remove the "-standard" suffix from the slug to get the template part area name.
+	$template_slug_key = str_replace( '-standard', '', $parsed_block['attrs']['slug'] );
 
     // $post = get_queried_object(); // returns the post holding the core/query, not the queried posts
     global $post; // is the currently queried post ;)
@@ -213,9 +220,9 @@ function jr26_experiments_render_template_part_data( array $parsed_block ): arra
 
 	// Get the directory where template parts live.
 	$parts_dir = get_block_theme_folders()['wp_template_part'];
-
+	
 	$format = get_post_format( $post ) ? : 'standard';
-	$slug   = "query-post-template-{$format}";
+	$slug   = "{$template_slug_key}-{$format}";
     if ( locate_template( "{$parts_dir}/{$slug}.html" ) ) {
         $parsed_block['attrs']['slug'] = $slug;
         return $parsed_block;
