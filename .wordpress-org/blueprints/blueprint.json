@@ -334,6 +334,16 @@
       "step": "installPlugin",
       "pluginData": {
         "resource": "wordpress.org/plugins",
+        "slug": "priority-plus-navigation"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
         "slug": "query-monitor"
       },
       "options": {
