@@ -729,6 +729,21 @@
 			"area": "uncategorized",
 			"name": "sidebar",
 			"title": "Seitenleiste"
+		},
+		{
+			"area": "query-post-template",
+			"name": "query-post-template-standard",
+			"title": "Query Loop: Format Standard"
+		},
+		{
+			"area": "query-post-template",
+			"name": "query-post-template-image",
+			"title": "Query Loop: Format Bild"
+		},
+		{
+			"area": "query-post-template",
+			"name": "query-post-template-quote",
+			"title": "Query Loop: Format Zitat"
 		}
 	]
 }

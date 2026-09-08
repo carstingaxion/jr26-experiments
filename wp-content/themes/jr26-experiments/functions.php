@@ -224,3 +224,25 @@ function jr26_experiments_render_template_part_data( array $parsed_block ): arra
 	// No format-specific part found; return the original unchanged.
 	return $parsed_block;
 }
+
+
+add_filter( 'default_wp_template_part_areas', 'jr26_experiments_template_part_areas' );
+/**
+ * Registers a new template part area for the post template block, which allows for a different template part to be used for each post format.
+ *
+ * @param  array $areas
+ *
+ * @return array
+ */
+function jr26_experiments_template_part_areas( array $areas ) :array
+{
+	$areas[] = array(
+		'area'        => 'query-post-template',
+		'area_tag'    => 'section',
+		'label'       => __( 'Query Post Template', 'jr26_experiments' ),
+		'description' => __( 'Uses a post template for each post format.', 'jr26_experiments' ),
+		'icon'        => 'sidebar'
+	);
+
+	return $areas;
+}
