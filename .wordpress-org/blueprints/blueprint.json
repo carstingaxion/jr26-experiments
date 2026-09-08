@@ -29,6 +29,7 @@
         "start_of_week": "1",
         "show_on_front": "page",
         "page_on_front": "6",
+        "page_for_posts": "172",
         "gatherpress_settings": {
           "show_timezone": false,
           "post_or_event_date": false
