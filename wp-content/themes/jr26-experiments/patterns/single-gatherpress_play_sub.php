@@ -36,7 +36,13 @@
 <!-- wp:column {"width":"35%"} -->
 <div class="wp-block-column" style="flex-basis:35%"><!-- wp:page-list {"className":"wpt-subsites-page-list"} /-->
 
-<!-- wp:template-part {"slug":"produktions-statistiken"} /--></div>
+<!-- wp:template-part {"slug":"produktions-statistiken"} /-->
+<!-- wp:gatherpress/venue {"sourcePostType":"gatherpress_play"} -->
+<!-- wp:post-title {"level":3,"isLink":true} /-->
+
+<!-- wp:post-featured-image {"isLink":true} /-->
+<!-- /wp:gatherpress/venue -->
+</div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></main>
 <!-- /wp:group -->
