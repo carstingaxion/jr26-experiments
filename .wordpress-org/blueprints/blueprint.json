@@ -333,16 +333,6 @@
     {
       "step": "installPlugin",
       "pluginData": {
-        "resource": "wordpress.org/plugins",
-        "slug": "priority-plus-navigation"
-      },
-      "options": {
-        "activate": true
-      }
-    },
-    {
-      "step": "installPlugin",
-      "pluginData": {
           "resource": "url",
           "url": "https://github.com/rtCamp/rt-carousel/releases/latest/download/rt-carousel.zip"
       },
