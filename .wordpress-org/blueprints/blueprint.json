@@ -343,6 +343,16 @@
     {
       "step": "installPlugin",
       "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/invisible-post-status/releases/latest/download/invisible-post-status.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
         "resource": "wordpress.org/plugins",
         "slug": "query-monitor"
       },
