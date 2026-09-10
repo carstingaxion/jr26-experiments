@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1" created="2026-09-10 10:28" -->
+	<!-- generator="WordPress/7.1" created="2026-09-10 10:34" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>JR26 experiments</title>
 	<link>https://jr26-experiments.test</link>
 	<description>jr26 xp</description>
-	<pubDate>Thu, 10 Sep 2026 10:28:51 +0000</pubDate>
+	<pubDate>Thu, 10 Sep 2026 10:34:53 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://jr26-experiments.test</wp:base_site_url>
@@ -2096,42 +2096,6 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
 					<item>
-		<title><![CDATA[Menü]]></title>
-		<link>https://jr26-experiments.test/2026/08/16/menue/</link>
-		<pubDate>Sun, 16 Aug 2026 13:11:39 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://jr26-experiments.test/?p=109</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/produktion","kind":"custom"} /-->
-
-<!-- wp:navigation-link {"label":"People","type":"link","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/person","kind":"custom"} /-->
-
-<!-- wp:navigation-link {"label":"Gruppen","type":"page","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/group","kind":"post-type"} /-->
-
-<!-- wp:navigation-link {"label":"Blog","type":"link","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/blog","kind":"custom"} /-->
-
-<!-- wp:navigation-link {"label":"FAQs","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/","kind":"custom"} /-->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>109</wp:post_id>
-		<wp:post_date><![CDATA[2026-08-16 15:11:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-08-16 13:11:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-08-16 15:11:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-08-16 13:11:39]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[menue]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_ignored_hooked_blocks]]></wp:meta_key>
-		<wp:meta_value><![CDATA[["gatherpress\/magic-menu"]]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[Heimatsehnen]]></title>
 		<link>https://jr26-experiments.test/produktion/heimatsehnen/</link>
 		<pubDate>Mon, 17 Aug 2026 17:18:18 +0000</pubDate>
@@ -2707,12 +2671,12 @@
 		<wp:post_id>192</wp:post_id>
 		<wp:post_date><![CDATA[2026-09-08 16:54:20]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-09-08 14:54:20]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-09-10 12:28:01]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-09-10 10:28:01]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-09-10 12:31:45]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-10 10:31:45]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[kiosk]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[invisible]]></wp:status>
 		<wp:post_parent>36</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[gatherpress_play_sub]]></wp:post_type>
@@ -2721,6 +2685,10 @@
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 		<wp:meta_value><![CDATA[blank]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -2747,6 +2715,154 @@
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
+					<item>
+		<title><![CDATA[Styleguide]]></title>
+		<link>https://jr26-experiments.test/produktion/oma/styleguide/</link>
+		<pubDate>Thu, 10 Sep 2026 10:33:02 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://jr26-experiments.test/?post_type=produktion&#038;p=207</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>The style guide pattern features the default blocks and sample color treatments for creating a style guide page on your website. This pattern is an easy way to add the default heading, text, button, quote, and sample image cover content to a site you are styling. Deliver the style guide with a client's website for easy reference and design adherence.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Typografie</h2>
+<!-- /wp:heading -->
+
+<!-- wp:separator {"align":"wide","className":"is-style-wide"} -->
+<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Überschrift&nbsp;1</h1>
+<!-- /wp:heading -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Überschrift&nbsp;2</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Überschrift&nbsp;3</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Überschrift&nbsp;4</h4>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Überschrift&nbsp;5</h5>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":6} -->
+<h6 class="wp-block-heading">Überschrift&nbsp;6</h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Paragraph</strong> <em>typography</em>. <span style="text-decoration: underline">Did you hear that?</span> They've shut down the main reactor. We'll be destroyed for sure. This is madness! We're doomed! There'll be no escape for the Princess this time. What's that? Artoo! Artoo-Detoo, where are you? At last! Where have you been? They're heading in this direction. What are we going to do? We'll be sent to the spice mine of Kessel or smashed into who knows what!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"align":"wide","className":"is-style-wide"} -->
+<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Farben</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:cover {"overlayColor":"black","isUserOverlayColor":true,"minHeight":180,"minHeightUnit":"px"} -->
+<div class="wp-block-cover" style="min-height:180px"><span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"placeholder":"Titel eingeben …","style":{"typography":{"textAlign":"center"}},"fontSize":"small"} -->
+<p class="has-text-align-center has-small-font-size">#000000</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:cover {"overlayColor":"cyan-bluish-gray","isUserOverlayColor":true,"minHeight":180,"minHeightUnit":"px","isDark":false} -->
+<div class="wp-block-cover is-light" style="min-height:180px"><span aria-hidden="true" class="wp-block-cover__background has-cyan-bluish-gray-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"placeholder":"Titel eingeben …","style":{"typography":{"textAlign":"center"}},"textColor":"black","fontSize":"small"} -->
+<p class="has-text-align-center has-black-color has-text-color has-small-font-size">#ABB8C3</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:cover {"overlayColor":"vivid-cyan-blue","isUserOverlayColor":true,"minHeight":180,"minHeightUnit":"px"} -->
+<div class="wp-block-cover" style="min-height:180px"><span aria-hidden="true" class="wp-block-cover__background has-vivid-cyan-blue-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"placeholder":"Titel eingeben …","style":{"typography":{"textAlign":"center"}},"textColor":"black","fontSize":"small"} -->
+<p class="has-text-align-center has-black-color has-text-color has-small-font-size">#0693E3</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:cover {"overlayColor":"pale-cyan-blue","isUserOverlayColor":true,"minHeight":180,"minHeightUnit":"px","isDark":false} -->
+<div class="wp-block-cover is-light" style="min-height:180px"><span aria-hidden="true" class="wp-block-cover__background has-pale-cyan-blue-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"placeholder":"Titel eingeben …","style":{"typography":{"textAlign":"center"}},"textColor":"black","fontSize":"small"} -->
+<p class="has-text-align-center has-black-color has-text-color has-small-font-size">#8ED1FC</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>207</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-10 12:33:02]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-10 10:33:02]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-10 12:34:13]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-10 10:34:13]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[styleguide]]></wp:post_name>
+		<wp:status><![CDATA[invisible]]></wp:status>
+		<wp:post_parent>36</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[gatherpress_play_sub]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Menü]]></title>
+		<link>https://jr26-experiments.test/2026/08/16/menue/</link>
+		<pubDate>Sun, 16 Aug 2026 13:11:39 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://jr26-experiments.test/?p=109</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/produktion","kind":"custom"} /-->
+
+<!-- wp:navigation-link {"label":"People","type":"link","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/person","kind":"custom"} /-->
+
+<!-- wp:navigation-link {"label":"Gruppen","type":"page","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/group","kind":"post-type"} /-->
+
+<!-- wp:navigation-link {"label":"Blog","type":"link","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/blog","kind":"custom"} /-->
+
+<!-- wp:navigation-link {"label":"FAQs","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/","kind":"custom"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>109</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-16 15:11:39]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-16 13:11:39]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-08-16 15:11:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-08-16 13:11:39]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menue]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_ignored_hooked_blocks]]></wp:meta_key>
+		<wp:meta_value><![CDATA[["gatherpress\/magic-menu"]]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
 					<item>
 		<title><![CDATA[Navigation (FOOTER)]]></title>
 		<link>https://jr26-experiments.test/2026/08/19/navigation-kopie/</link>
