@@ -246,7 +246,7 @@
           "url": "https://github.com/carstingaxion/gatherpress-statistics/releases/latest/download/gatherpress-statistics.zip"
       },
       "options": {
-          "activate": false
+          "activate": true
       }
     },
     {
