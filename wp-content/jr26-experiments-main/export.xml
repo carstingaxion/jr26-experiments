@@ -2834,15 +2834,15 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://jr26-experiments.test/?p=109</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/produktion","kind":"custom"} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/produktion","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"People","type":"link","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/person","kind":"custom"} /-->
+<!-- wp:navigation-link {"label":"People","type":"link","url":"\/person","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"Gruppen","type":"page","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/group","kind":"post-type"} /-->
+<!-- wp:navigation-link {"label":"Gruppen","type":"page","url":"\/group","kind":"post-type"} /-->
 
-<!-- wp:navigation-link {"label":"Blog","type":"link","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/blog","kind":"custom"} /-->
+<!-- wp:navigation-link {"label":"Blog","type":"link","url":"\/blog","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"FAQs","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/","kind":"custom"} /-->]]></content:encoded>
+<!-- wp:navigation-link {"label":"FAQs","url":"\/","kind":"custom"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>109</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-16 15:11:39]]></wp:post_date>
@@ -2870,11 +2870,11 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://jr26-experiments.test/2026/08/19/navigation-kopie/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/scope:determined-old-school-2\/scope:determined-old-school\/scope:excited-glamorous-school\/produktion","kind":"custom"} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/produktion","kind":"custom"} /-->
 
 <!-- wp:gatherpress/magic-menu {"showEventCount":true,"className":"is-style-badge"} /-->
 
-<!-- wp:navigation-link {"label":"Impressum","type":"page","id":9,"url":"https:\/\/playground.wordpress.net\/scope:excited-glamorous-school\/impressum\/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core\/post-data","args":{"field":"link"}}}}} /-->]]></content:encoded>
+<!-- wp:navigation-link {"label":"Impressum","type":"page","id":9,"url":"\/impressum\/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core\/post-data","args":{"field":"link"}}}}} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>124</wp:post_id>
 		<wp:post_date><![CDATA[2026-08-19 21:46:24]]></wp:post_date>
@@ -2902,11 +2902,11 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://wuk-experiments.test/2026/03/20/navigation/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/produktion","kind":"custom"} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Produktionen","url":"\/produktion","kind":"custom"} /-->
 
 <!-- wp:gatherpress/magic-menu {"showEventCount":true,"className":"is-style-badge"} /-->
 
-<!-- wp:navigation-link {"label":"Referenzen","type":"custom","url":"\/scope:excited-classic-ocean\/scope:determined-noisy-city\/scope:shy-trendy-state\/scope:sad-peaceful-village\/scope:curious-modern-village\/referenzen","kind":"custom"} /-->]]></content:encoded>
+<!-- wp:navigation-link {"label":"Referenzen","type":"custom","url":"\/referenzen","kind":"custom"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>131</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-20 17:20:15]]></wp:post_date>

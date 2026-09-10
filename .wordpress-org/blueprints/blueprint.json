@@ -28,7 +28,7 @@
         "time_format": "H:i",
         "start_of_week": "1",
         "show_on_front": "page",
-        "page_on_front": "6",
+        "page_on_front": "132",
         "page_for_posts": "172",
         "gatherpress_settings": {
           "show_timezone": false,
