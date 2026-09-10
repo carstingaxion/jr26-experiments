@@ -14,7 +14,7 @@
 
 <!-- wp:query {"queryId":7,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[],"format":[],"excludeCurrent":null}} -->
 <div class="wp-block-query"><!-- wp:post-template -->
-<!-- wp:template-part {"slug":"query-post-template-standard","area":"uncategorized"} /-->
+<!-- wp:template-part {"slug":"query-post-template-standard","area":"query-post-template"} /-->
 <!-- /wp:post-template -->
 
 
