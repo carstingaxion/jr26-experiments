@@ -126,6 +126,7 @@ function jr26_experiments_duplicate_as_config() {
 
 	// Allow to duplicate "gatherpress_event" posts.
 	add_post_type_support( 'gatherpress_event', 'duplicate_as' );
+	add_post_type_support( 'gatherpress_play_sub', 'duplicate_as' );
 }
 
 
