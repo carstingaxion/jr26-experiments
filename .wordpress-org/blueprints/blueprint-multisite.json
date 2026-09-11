@@ -9,21 +9,6 @@
   },
   "landingPage": "/wp-admin",
   "steps": [
-		{
-			"step": "enableMultisite"
-		},
-		{
-			"step": "wp-cli",
-			"command": "wp site create --slug=juliaraab-de"
-		},
-		{
-			"step": "wp-cli",
-			"command": "wp site create --slug=oma.juliaraab-de"
-		},
-		{
-			"step": "wp-cli",
-			"command": "wp site create --slug=taschen.juliaraab-de"
-		},
     {
       "step": "login"
     },
@@ -56,7 +41,8 @@
       "consts": {
         "UPLOADS": "wp-content/uploads",
         "CORE_UPGRADE_SKIP_NEW_BUNDLED": true,
-        "GATHERPRESS_ALPHA_VERSION": true
+        "GATHERPRESS_ALPHA_VERSION": true,
+        "WP_DEFAULT_THEME": "jr26-experiments"
       }
     },
     {
@@ -435,6 +421,38 @@
             "resource": "url",
             "url": "https://raw.githubusercontent.com/carstingaxion/jr26-experiments/refs/heads/main/wp-content/jr26-experiments-main/export.xml"
         }
+    },
+		{
+			"step": "enableMultisite"
+		},
+    {
+      "step": "wp-cli",
+      "command": "wp theme enable jr26-experiments --network --activate"
+    },
+    {
+			"step": "wp-cli",
+			"command": "wp site create --slug=heimatsehnen-juliaraab-de"
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp site create --slug=oma-juliaraab-de"
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp site create --slug=taschen-juliaraab-de"
+		},
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/mu-plugins/jr26-experiments-theme-config.php",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/wp-content/mu-plugins/jr26-experiments-theme-config.php"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/mu-plugins/sync-active-plugins-from-mainsite.php",
+      "data": "<?php\n/**\n * Plugin Name: Sync Active Plugins from Main Site\n * Description: Forces all subsites to use the active_plugins option from site 1.\n */\nadd_filter( 'option_active_plugins', function( $plugins ) {\n\tif ( ! is_multisite() ) {\n\t\treturn $plugins;\n\t}\n\n\t$main_site_id = (int) get_main_network_id();\n\tif ( get_current_blog_id() === $main_site_id ) {\n\t\treturn $plugins;\n\t}\n\n\tstatic $syncing = false;\n\tif ( $syncing ) {\n\t\treturn $plugins;\n\t}\n\n\t$syncing = true;\n\t$main_plugins = get_blog_option( $main_site_id, 'active_plugins', array() );\n\t$syncing = false;\n\n\treturn is_array( $main_plugins ) ? $main_plugins : $plugins;\n} );\n"
     }
   ]
 }
