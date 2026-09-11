@@ -3,8 +3,12 @@
 ## What
 
 - [Create, read update, delete & save][export-to-github] `jr26-experiments` using Playground and persist it with prepared settings for GitHub Export.
-- or simply browse & view ...
-   - [`jr26-experiments` in *seamless* mode][seamless].
+- or simply browse & view [`jr26-experiments` in *seamless* mode][seamless].
+
+### the same in a Multisite setup
+
+- [Create, read update, delete & save (Multisite)][export-to-github-mu] `jr26-experiments` using Playground and persist it with prepared settings for GitHub Export.
+- or simply browse & view [`jr26-experiments` in *seamless* mode (Multisite)][seamless-mu].
 
 
 ### You should create a new repository from [this template](https://github.com/new?template_name=crud-the-docs-playground&template_owner=carstingaxion) for yourself, if you'd like to ...
@@ -96,3 +100,9 @@ https://github.com/GatherPress/gatherpress-demo-data
 
 
 [seamless]: https://playground.wordpress.net/?mode=seamless&url=/&blueprint-url=https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/.wordpress-org/blueprints/blueprint.json
+
+
+[export-to-github-mu]: https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/.wordpress-org/blueprints/blueprint-multisite.json&gh-ensure-auth=yes&ghexport-repo-url=https://github.com/carstingaxion/jr26-experiments&ghexport-pr-action=create&ghexport-playground-root=/wordpress/wp-content&ghexport-repo-root=wp-content&ghexport-content-type=custom-paths&ghexport-path=/mu-plugins&ghexport-path=/themes&ghexport-path=/uploads&ghexport-path=/jr26-experiments-main&ghexport-commit-message=Changes%20from%20Playground&ghexport-allow-include-zip=no
+
+
+[seamless-mu]: https://playground.wordpress.net/?mode=seamless&url=/&blueprint-url=https://raw.githubusercontent.com/carstingaxion/jr26-experiments/main/.wordpress-org/blueprints/blueprint-multisite.json
